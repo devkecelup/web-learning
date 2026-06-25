@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - YasaLearn English</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Top Navbar Removed -->
+
+  <div class="container dashboard-layout">
+    
+    <!-- Left Column (Learning Plan) -->
+    <div class="main-content">
+      <h2 class="text-2xl font-bold" style="margin-bottom: 8px;">Learning Plan</h2>
+      <p class="text-secondary" style="margin-bottom: 32px;">Lanjutkan progres belajarmu hari ini.</p>
+
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="text-2xl font-bold text-primary" id="totalScore">0</div>
+          <div class="text-xs text-secondary">Rata-rata Nilai</div>
+        </div>
+        <div class="stat-box">
+          <div class="text-2xl font-bold text-accent" id="totalVocab">0</div>
+          <div class="text-xs text-secondary">Vocab Tersimpan</div>
+        </div>
+      </div>
+
+      <div class="glass-card">
+        <h3 class="font-semibold text-lg">Modul Pembelajaran</h3>
+        <div class="timeline-container" id="timelineContainer">
+          <!-- Dinamis diisi dari JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column (Events / Vocab) -->
+    <div class="sidebar">
+      <div class="glass-card" style="margin-bottom: 24px;">
+        <h3 class="font-semibold text-lg" style="margin-bottom: 16px;">Target Belajar</h3>
+        
+        <div class="event-card light">
+          <div class="text-xs font-bold" style="margin-bottom: 4px;">HARI INI</div>
+          <div class="font-semibold">Selesaikan Paket 1</div>
+          <div class="text-xs" style="margin-top: 8px; opacity: 0.8;">Reading Comprehension</div>
+        </div>
+        
+        <div class="event-card">
+          <div class="text-xs font-bold" style="margin-bottom: 4px;">BESOK</div>
+          <div class="font-semibold">Latihan Grammar</div>
+          <div class="text-xs" style="margin-top: 8px; opacity: 0.8;">Paket 2 & Review</div>
+        </div>
+      </div>
+
+      <div class="glass-card">
+        <h3 class="font-semibold text-lg" style="margin-bottom: 16px;">Saved Vocabulary</h3>
+        <div id="vocabList" class="flex-col gap-sm">
+          <!-- Dinamis diisi dari JavaScript -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    lucide.createIcons();
+    function toggleMenu() {
+      const navMenu = document.getElementById('navMenu');
+      if(navMenu) navMenu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

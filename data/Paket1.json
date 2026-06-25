@@ -1,0 +1,362 @@
+[
+{
+"id": 1,
+"paket": 1,
+"nomor": 1,
+"kategori": "Reading Comprehension",
+"judul_teks": "Cholera (Kolera)",
+"teks": "Cholera, a highly infectious disease, has resulted in millions of deaths time after time over centuries. It is caused by the bacterium Vibrio cholerae, first isolated by Robert Koch in 1883. The organism enters the body through the digestive tract when contaminated food or water is ingested. The bacteria multiply in the digestive tract and establish infection. As they die, they release a potent toxin that leads to severe diarrhea and vomiting. This results in extreme dehydration, muscle cramps, kidney failure, collapse, and sometimes death. If the disease is treated promptly, death is less likely.\n\nIn many countries, a common source of the organism is raw or poorly cooked seafood taken from contaminated waters. The disease is especially prevalent after a natural disaster or other destruction that results in a lack of fresh water. Sewer systems fail, and waste travels into rivers or streams; piped water is not available so people must take their drinking and cooking water from rivers or streams. Because people frequently develop communities along waterways, the disease can be spread easily from one community to the next community downstream, resulting in serious epidemics.",
+"pertanyaan": "All of the following are probable causes of infection except... (Semua hal berikut adalah penyebab infeksi yang mungkin, KECUALI...)",
+"pilihan": {
+"A": "eating undercooked seafood (memakan makanan laut yang kurang matang)",
+"B": "eating fresh seafood directly (memakan makanan laut segar secara langsung/mentah)",
+"C": "eating overcooked pork (memakan daging babi yang dimasak terlalu matang)",
+"D": "eating raw oysters (memakan tiram mentah)",
+"E": "eating food cooked with contaminated water (memakan makanan yang dimasak dengan air tercemar)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Semua hal berikut adalah penyebab infeksi yang mungkin, KECUALI...'. Clue/Trik: Perhatikan kata kunci 'except' (kecuali). Pada paragraf kedua dijelaskan bahwa bakteri kolera ditularkan melalui seafood mentah atau kurang matang (poorly cooked/undercooked) dari air tercemar. Pilihan A, B, D, dan E semuanya bisa menjadi media penularan. Pilihan C salah (dan menjadi jawaban yang benar) karena daging babi (pork) sama sekali tidak dibahas di teks, dan secara logika jika dimasak terlalu matang (overcooked), kuman/bakteri di dalamnya justru sudah mati."
+},
+{
+"id": 2,
+"paket": 1,
+"nomor": 2,
+"kategori": "Reading Comprehension",
+"judul_teks": "Cholera (Kolera)",
+"teks": "Cholera, a highly infectious disease, has resulted in millions of deaths time after time over centuries. It is caused by the bacterium Vibrio cholerae, first isolated by Robert Koch in 1883. The organism enters the body through the digestive tract when contaminated food or water is ingested. The bacteria multiply in the digestive tract and establish infection. As they die, they release a potent toxin that leads to severe diarrhea and vomiting. This results in extreme dehydration, muscle cramps, kidney failure, collapse, and sometimes death. If the disease is treated promptly, death is less likely.\n\nIn many countries, a common source of the organism is raw or poorly cooked seafood taken from contaminated waters. The disease is especially prevalent after a natural disaster or other destruction that results in a lack of fresh water. Sewer systems fail, and waste travels into rivers or streams; piped water is not available so people must take their drinking and cooking water from rivers or streams. Because people frequently develop communities along waterways, the disease can be spread easily from one community to the next community downstream, resulting in serious epidemics.",
+"pertanyaan": "Which of the following would be an appropriate title for this passage? (Manakah dari berikut ini yang akan menjadi judul yang tepat untuk bacaan ini?)",
+"pilihan": {
+"A": "Dysentery and Its Effects (Disentri dan Dampaknya)",
+"B": "Water Purification Systems and Their Importance (Sistem Pemurnian Air dan Pentingnya)",
+"C": "Results of War and Natural Disasters (Dampak Perang dan Bencana Alam)",
+"D": "The Causes and Effects of Cholera (Penyebab dan Dampak Kolera)",
+"E": "Vibrio cholerae is the bacteria that causes cholera (Vibrio cholerae adalah bakteri penyebab kolera)"
+},
+"jawaban_benar": "D",
+"penjelasan": "Arti Pertanyaan: 'Manakah judul yang paling cocok untuk bacaan ini?'. Clue/Trik: Judul yang baik harus merangkum seluruh isi teks (ide pokok keseluruhan). Paragraf 1 fokus membahas dampak/akibat penyakit kolera bagi tubuh manusia (effects). Paragraf 2 fokus membahas cara penularan dan penyebab terjadinya wabah kolera (causes). Jadi, pilihan D yang menggabungkan keduanya (Causes and Effects) adalah judul yang paling lengkap dan tepat."
+},
+{
+"id": 3,
+"paket": 1,
+"nomor": 3,
+"kategori": "Reading Comprehension",
+"judul_teks": "Cholera (Kolera)",
+"teks": "Cholera, a highly infectious disease, has resulted in millions of deaths time after time over centuries. It is caused by the bacterium Vibrio cholerae, first isolated by Robert Koch in 1883. The organism enters the body through the digestive tract when contaminated food or water is ingested. The bacteria multiply in the digestive tract and establish infection. As they die, they release a potent toxin that leads to severe diarrhea and vomiting. This results in extreme dehydration, muscle cramps, kidney failure, collapse, and sometimes death. If the disease is treated promptly, death is less likely.\n\nIn many countries, a common source of the organism is raw or poorly cooked seafood taken from contaminated waters. The disease is especially prevalent after a natural disaster or other destruction that results in a lack of fresh water. Sewer systems fail, and waste travels into rivers or streams; piped water is not available so people must take their drinking and cooking water from rivers or streams. Because people frequently develop communities along waterways, the disease can be spread easily from one community to the next community downstream, resulting in serious epidemics.",
+"pertanyaan": "According to the passage, cholera... (Berdasarkan bacaan di atas, penyakit kolera...)",
+"pilihan": {
+"A": "is easily passed from one person to another (dengan mudah ditularkan dari satu orang ke orang lain)",
+"B": "is not a real threat (bukan merupakan ancaman nyata)",
+"C": "is no more dangerous than the common cold (tidak lebih berbahaya daripada flu biasa)",
+"D": "cannot be passed from one to another by casual contact (tidak dapat ditularkan lewat kontak biasa)",
+"E": "cholera can overcome diarrhea and vomiting (kolera bisa mengatasi diare dan muntah)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Berdasarkan bacaan di atas, kolera...'. Clue/Trik: Cari informasi yang tertulis langsung di dalam teks. Di paragraf kedua kalimat terakhir tertulis: 'the disease can be spread easily from one community to the next...' (penyakit ini dapat menyebar dengan mudah dari satu kelompok ke kelompok berikutnya). Ini bermakna sama dengan pilihan A yang menyebutkan bahwa kolera mudah menular/menyebar dari satu orang ke orang lainnya."
+},
+{
+"id": 4,
+"paket": 1,
+"nomor": 4,
+"kategori": "Reading Comprehension",
+"judul_teks": "Cholera (Kolera)",
+"teks": "Cholera, a highly infectious disease, has resulted in millions of deaths time after time over centuries. It is caused by the bacterium Vibrio cholerae, first isolated by Robert Koch in 1883. The organism enters the body through the digestive tract when contaminated food or water is ingested. The bacteria multiply in the digestive tract and establish infection. As they die, they release a potent toxin that leads to severe diarrhea and vomiting. This results in extreme dehydration, muscle cramps, kidney failure, collapse, and sometimes death. If the disease is treated promptly, death is less likely.\n\nIn many countries, a common source of the organism is raw or poorly cooked seafood taken from contaminated waters. The disease is especially prevalent after a natural disaster or other destruction that results in a lack of fresh water. Sewer systems fail, and waste travels into rivers or streams; piped water is not available so people must take their drinking and cooking water from rivers or streams. Because people frequently develop communities along waterways, the disease can be spread easily from one community to the next community downstream, resulting in serious epidemics.",
+"pertanyaan": "What can you infer from the passage? (Apa yang bisa kamu simpulkan secara tidak langsung dari bacaan ini?)",
+"pilihan": {
+"A": "Careful cooking and hygiene practices can reduce the chance of getting the disease (Cara memasak yang hati-hati dan menjaga kebersihan dapat mengurangi peluang terkena penyakit ini)",
+"B": "Water mixed with other substances will not pass the disease (Air yang dicampur dengan zat lain tidak akan menularkan penyakit)",
+"C": "The respiratory system is the most common area of entrance (Sistem pernapasan adalah area masuk yang paling umum)",
+"D": "Kidney disease is the most common cause of the illness (Penyakit ginjal adalah penyebab paling umum dari penyakit ini)",
+"E": "People should stop drinking and cooking water from rivers or streams (Orang-orang harus berhenti meminum dan memasak menggunakan air sungai)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Apa yang bisa kamu simpulkan secara tidak langsung (infer) dari bacaan?'. Clue/Trik: 'Infer' meminta kita menarik kesimpulan logis yang didukung data teks meskipun tidak tertulis secara harfiah. Karena teks menyatakan kolera ditularkan melalui makanan mentah/kurang matang dan air yang kotor/tercemar, maka kesimpulan logisnya adalah dengan memasak secara hati-hati (careful cooking) dan menjaga sanitasi/kebersihan (hygiene), kita dapat menekan risiko terinfeksi kolera (Pilihan A)."
+},
+{
+"id": 5,
+"paket": 1,
+"nomor": 5,
+"kategori": "Reading Comprehension",
+"judul_teks": "The Bar Code (Kode Batang)",
+"teks": "The ubiquitous bar code, developed more than twenty years ago, is not a stagnant product. On the contrary, the technology has been improved so that it can be used more efficiently. Much less expensive than a computer chip, the bar code can hold more information than it has in the past by adding a second dimension to the structure.\n\nThe bar code consists of a series of parallel vertical bars or lines of two different widths, although sometimes four widths are used, printed in black on a white background. Barcodes are used for entering data into a computer system. The bars represent the binary digits 0 and 1, just like basic computer language, and sequences of these digits can indicate the numbers from 0 to 9, which can then be read by an optical laser scanner and processed by a digital computer. Arabic numbers appear below the code.\n\nThe traditional bar code has been used to monitor skiers at ski lifts and to determine price and perform inventory control on groceries, drugs, medical supplies, manufactured parts, and library books to name a few. The bar code used on grocery products, introduced in the 1970s, is called a universal product code (or UPC) and assigns each type of food or grocery product a unique code. The five digits on the left are assigned to a particular manufacturer or maker and the five digits on the right are used by that manufacturer to identify a specific type or make of product. Traditional single dimension bar codes are not readily customizable because there is little extra space.\n\nThe two-dimensional bar code, with an information density of 1,100 bytes, allows a considerably greater amount of information to be coded than does the traditional bar code, including customized information. It also has built-in redundancy, meaning that the identical information is duplicated on the same code. Therefore, if the code is damaged, it can still be read. The technology even allows pictures or text to be contained within the code, as well as barcode encryption. The new technology dramatically reduces the errors of the single dimensional bar code and reduces the enormous costs that some companies have reported in the past.",
+"pertanyaan": "The author implies that the bar code... (Penulis menyiratkan secara tidak langsung bahwa kode batang...)",
+"pilihan": {
+"A": "has only recently become popular (baru-baru ini saja menjadi populer)",
+"B": "will never change (tidak akan pernah berubah)",
+"C": "is not useful (tidak berguna)",
+"D": "is an outdated technology (adalah teknologi kuno/ketinggalan zaman)",
+"E": "has existed in one-dimensional form for years (telah ada dalam bentuk satu dimensi selama bertahun-tahun)"
+},
+"jawaban_benar": "E",
+"penjelasan": "Arti Pertanyaan: 'Penulis menyiratkan (implies) bahwa barcode...'. Clue/Trik: Kalimat pertama menyebutkan barcode dikembangkan 'more than twenty years ago' (lebih dari 20 tahun yang lalu). Lalu, paragraf 3 membahas 'traditional single dimension' (satu dimensi tradisional) dan paragraf 4 membahas teknologi baru 'two-dimensional' (dua dimensi). Berarti, sebelum ada versi 2D, bentuk satu dimensinya sudah eksis selama bertahun-tahun (pilihan E)."
+},
+{
+"id": 6,
+"paket": 1,
+"nomor": 6,
+"kategori": "Reading Comprehension",
+"judul_teks": "The Bar Code (Kode Batang)",
+"teks": "The ubiquitous bar code, developed more than twenty years ago, is not a stagnant product. On the contrary, the technology has been improved so that it can be used more efficiently. Much less expensive than a computer chip, the bar code can hold more information than it has in the past by adding a second dimension to the structure.\n\nThe bar code consists of a series of parallel vertical bars or lines of two different widths, although sometimes four widths are used, printed in black on a white background. Barcodes are used for entering data into a computer system. The bars represent the binary digits 0 and 1, just like basic computer language, and sequences of these digits can indicate the numbers from 0 to 9, which can then be read by an optical laser scanner and processed by a digital computer. Arabic numbers appear below the code.\n\nThe traditional bar code has been used to monitor skiers at ski lifts and to determine price and perform inventory control on groceries, drugs, medical supplies, manufactured parts, and library books to name a few. The bar code used on grocery products, introduced in the 1970s, is called a universal product code (or UPC) and assigns each type of food or grocery product a unique code. The five digits on the left are assigned to a particular manufacturer or maker and the five digits on the right are used by that manufacturer to identify a specific type or make of product. Traditional single dimension bar codes are not readily customizable because there is little extra space.\n\nThe two-dimensional bar code, with an information density of 1,100 bytes, allows a considerably greater amount of information to be coded than does the traditional bar code, including customized information. It also has built-in redundancy, meaning that the identical information is duplicated on the same code. Therefore, if the code is damaged, it can still be read. The technology even allows pictures or text to be contained within the code, as well as barcode encryption. The new technology dramatically reduces the errors of the single dimensional bar code and reduces the enormous costs that some companies have reported in the past.",
+"pertanyaan": "The author's main purpose is to describe... (Tujuan utama penulis adalah untuk menjelaskan...)",
+"pilihan": {
+"A": "the current technology and newest innovation of bar codes (teknologi kode batang saat ini dan inovasi terbarunya)",
+"B": "problems with the bar code (masalah-masalah pada kode batang)",
+"C": "the UPC used in grocery stores (UPC yang digunakan di toko kelontong)",
+"D": "why the bar code is no longer viable (mengapa kode batang tidak lagi layak pakai)",
+"E": "a comparison of the bar code and a computer chip (perbandingan kode batang dan chip komputer)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Tujuan utama (main purpose) penulis menulis teks ini adalah untuk menggambarkan...'. Clue/Trik: Bacalah paragraf pertama (membahas sejarah singkat barcode) lalu paragraf-paragraf berikutnya yang mengulas fungsi barcode tradisional (current technology) hingga inovasi barcode dua dimensi (newest innovation). Pilihan A mewakili seluruh alur pembahasan teks secara utuh."
+},
+{
+"id": 7,
+"paket": 1,
+"nomor": 7,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bees (Lebah)",
+"teks": "Bees, classified into over 10,000 species, are insects found in almost every part of the world except the northernmost and southernmost regions. One commonly known species is the honeybee, the only bee that produces honey and wax. Humans use the wax in making candles, lipsticks, and other products, and they use the honey as a food. While gathering the nectar and pollen with which they make honey, bees are simultaneously helping to fertilize the flowers on which they land. Many fruits and vegetables would not survive if bees did not carry the pollen from blossom to blossom.\n\nBees live in a structured environment and social structure within a hive, which is a nest with storage space for the honey. The different types of bees each perform a unique function. The worker bee carries nectar to the hive in a special stomach called a honey stomach. Other workers make beeswax and shape it into a honeycomb, which is a water-proof mass of six-sided compartments, or cells. The queen lays eggs in completed cells. As the workers build more cells, the queen lays more eggs.\n\nAll workers, like the queen, are female, but the workers are smaller than the queen. The male honeybees are called drones; they do no work and cannot sting. They are developed from unfertilized eggs, and their only job is to impregnate a queen. The queen must be fertilized in order to lay worker eggs. During the season when less honey is available and the drone is of no further use, the workers block the drones from eating the honey so that they will starve to death.",
+"pertanyaan": "Which of the following is the best title for this reading? (Manakah yang merupakan judul terbaik untuk bacaan ini?)",
+"pilihan": {
+"A": "The Many Species of Bees (Banyaknya Spesies Lebah)",
+"B": "The Useless Drone (Lebah Jantan/Drone yang Tidak Berguna)",
+"C": "The Honeybee - Its Characteristics and Usefulness (Lebah Madu - Karakteristik dan Kegunaannya)",
+"D": "Making Honey (Pembuatan Madu)",
+"E": "The classification of Bees (Klasifikasi Lebah)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Manakah judul terbaik (best title) untuk bacaan ini?'. Clue/Trik: Meskipun teks di awal menyebutkan klasifikasi lebah, bahasan utama dari baris kedua sampai akhir teks adalah spesifik pada spesies 'Honeybee' (Lebah Madu), karakteristik sosial sarang mereka (characteristics), serta manfaatnya membantu penyerbukan dan menghasilkan madu (usefulness). Jadi pilihan C adalah judul yang paling merangkum isi."
+},
+{
+"id": 8,
+"paket": 1,
+"nomor": 8,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bees (Lebah)",
+"teks": "Bees, classified into over 10,000 species, are insects found in almost every part of the world except the northernmost and southernmost regions. One commonly known species is the honeybee, the only bee that produces honey and wax. Humans use the wax in making candles, lipsticks, and other products, and they use the honey as a food. While gathering the nectar and pollen with which they make honey, bees are simultaneously helping to fertilize the flowers on which they land. Many fruits and vegetables would not survive if bees did not carry the pollen from blossom to blossom.\n\nBees live in a structured environment and social structure within a hive, which is a nest with storage space for the honey. The different types of bees each perform a unique function. The worker bee carries nectar to the hive in a special stomach called a honey stomach. Other workers make beeswax and shape it into a honeycomb, which is a water-proof mass of six-sided compartments, or cells. The queen lays eggs in completed cells. As the workers build more cells, the queen lays more eggs.\n\nAll workers, like the queen, are female, but the workers are smaller than the queen. The male honeybees are called drones; they do no work and cannot sting. They are developed from unfertilized eggs, and their only job is to impregnate a queen. The queen must be fertilized in order to lay worker eggs. During the season when less honey is available and the drone is of no further use, the workers block the drones from eating the honey so that they will starve to death.",
+"pertanyaan": "According to the passage, honey is carried to the hive in a honey stomach by the... (Menurut bacaan, madu dibawa ke sarang di dalam perut madu oleh...)",
+"pilihan": {
+"A": "queens (ratu)",
+"B": "drones (lebah jantan)",
+"C": "males (pejantan)",
+"D": "workers (lebah pekerja)",
+"E": "eggs (telur)"
+},
+"jawaban_benar": "D",
+"penjelasan": "Arti Pertanyaan: 'Menurut bacaan, madu (nektar) dibawa ke sarang di dalam perut madu oleh...'. Clue/Trik: Lakukan pemindaian (scanning) kata kunci 'honey stomach' pada teks. Pada paragraf 2 tertulis: 'The worker bee carries nectar to the hive in a special stomach called a honey stomach.' Subjek kalimat ini adalah 'the worker bee' (lebah pekerja). Maka, jawabannya adalah D."
+},
+{
+"id": 9,
+"paket": 1,
+"nomor": 9,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bees (Lebah)",
+"teks": "Bees, classified into over 10,000 species, are insects found in almost every part of the world except the northernmost and southernmost regions. One commonly known species is the honeybee, the only bee that produces honey and wax. Humans use the wax in making candles, lipsticks, and other products, and they use the honey as a food. While gathering the nectar and pollen with which they make honey, bees are simultaneously helping to fertilize the flowers on which they land. Many fruits and vegetables would not survive if bees did not carry the pollen from blossom to blossom.\n\nBees live in a structured environment and social structure within a hive, which is a nest with storage space for the honey. The different types of bees each perform a unique function. The worker bee carries nectar to the hive in a special stomach called a honey stomach. Other workers make beeswax and shape it into a honeycomb, which is a water-proof mass of six-sided compartments, or cells. The queen lays eggs in completed cells. As the workers build more cells, the queen lays more eggs.\n\nAll workers, like the queen, are female, but the workers are smaller than the queen. The male honeybees are called drones; they do no work and cannot sting. They are developed from unfertilized eggs, and their only job is to impregnate a queen. The queen must be fertilized in order to lay worker eggs. During the season when less honey is available and the drone is of no further use, the workers block the drones from eating the honey so that they will starve to death.",
+"pertanyaan": "According to the passage, a hive is... (Berdasarkan bacaan, hive/sarang lebah adalah...)",
+"pilihan": {
+"A": "a type of honey (sejenis madu)",
+"B": "a nest (sebuah sarang)",
+"C": "a type of bee (sejenis lebah)",
+"D": "a place to store honey (tempat untuk menyimpan madu)",
+"E": "a structured environment (lingkungan yang terstruktur)"
+},
+"jawaban_benar": "D",
+"penjelasan": "Arti Pertanyaan: 'Menurut bacaan, hive adalah...'. Clue/Trik: Cari kata 'hive' di teks. Di awal paragraf kedua tertulis: '...within a hive, which is a nest with storage space for the honey' (sarang dengan ruang penyimpanan madu). Walaupun pilihan B (a nest) juga benar, kunci jawaban resmi memfokuskan fungsinya secara spesifik yaitu tempat untuk menyimpan madu (D)."
+},
+{
+"id": 10,
+"paket": 1,
+"nomor": 10,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bees (Lebah)",
+"teks": "Bees, classified into over 10,000 species, are insects found in almost every part of the world except the northernmost and southernmost regions. One commonly known species is the honeybee, the only bee that produces honey and wax. Humans use the wax in making candles, lipsticks, and other products, and they use the honey as a food. While gathering the nectar and pollen with which they make honey, bees are simultaneously helping to fertilize the flowers on which they land. Many fruits and vegetables would not survive if bees did not carry the pollen from blossom to blossom.\n\nBees live in a structured environment and social structure within a hive, which is a nest with storage space for the honey. The different types of bees each perform a unique function. The worker bee carries nectar to the hive in a special stomach called a honey stomach. Other workers make beeswax and shape it into a honeycomb, which is a water-proof mass of six-sided compartments, or cells. The queen lays eggs in completed cells. As the workers build more cells, the queen lays more eggs.\n\nAll workers, like the queen, are female, but the workers are smaller than the queen. The male honeybees are called drones; they do no work and cannot sting. They are developed from unfertilized eggs, and their only job is to impregnate a queen. The queen must be fertilized in order to lay worker eggs. During the season when less honey is available and the drone is of no further use, the workers block the drones from eating the honey so that they will starve to death.",
+"pertanyaan": "The author implies that... (Penulis menyiratkan secara tidak langsung bahwa...)",
+"pilihan": {
+"A": "bees are unnecessary in the food chain (lebah tidak penting dalam rantai makanan)",
+"B": "drones are completely dispensable (lebah jantan/drone benar-benar bisa dibuang/tidak berguna)",
+"C": "drones are never females (lebah jantan/drone tidak pernah berjenis kelamin betina)",
+"D": "the queen can be a worker (ratu lebah bisa menjadi lebah pekerja)",
+"E": "the queen is pregnant by the workers (ratu lebah dibuahi oleh lebah pekerja)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Penulis menyiratkan (implies) secara tidak langsung bahwa...'. Clue/Trik: Lakukan penalaran logika dari pernyataan tertulis. Paragraf 3 menyatakan 'The male honeybees are called drones' (Lebah jantan disebut drone). Karena drone didefinisikan mutlak sebagai lebah jantan, maka secara otomatis/tersirat drone tidak pernah berkelamin betina (never females), sehingga pilihan C adalah kesimpulan yang mutlak benar."
+},
+{
+"id": 11,
+"paket": 1,
+"nomor": 11,
+"kategori": "Reading Comprehension",
+"judul_teks": "Diabetes Mellitus (Kencing Manis)",
+"teks": "Diabetes Mellitus is a disorder of carbohydrate metabolism resulting from insufficient production of insulin or reduced sensitivity to insulin. A polypeptide hormone, insulin is synthesized in the pancreas and is necessary for normal utilization of glucose by most cells in the body. People with diabetes suffer an inhibition in the normal ability of body cells to use glucose, which results in increased blood sugar levels. As more glucose accumulates in the blood, excess levels of sugar are excreted in the urine.\n\nThere are two varieties of the disease, Type 1 and Type 2. The two types were previously designated by Roman numerals, but now Arabic numerals are used; for example, Type II is now known as Type 2. Type 1 was formerly referred to as juvenile onset diabetes, but it can occur at any age. In Type 1 diabetes, insulin is not secreted by the pancreas, so it must be injected. This type of diabetes is most often seen in people whose parents, siblings, or other close relatives are affected by the disease.\n\nType 2, representing 90 percent of all diabetes, used to be called adult onset diabetes, but it can also occur at any age. It results from sluggish pancreatic insulin secretion and tissue resistance to secreted insulin, which is complicated by subtle changes in the secretion of insulin by the beta cells. It is generally controlled by dietary restriction. People who are at risk for this type include: women who have delivered a baby of 9 pounds or more or have been diagnosed with gestational diabetes; people over 45 years of age, particularly those of African-American, Asian-American, Hispanic, Native American, or Pacific Islander heritage; those who have a history of diabetes in the family; those who are obese; and those with high blood pressure, a high triglyceride level, or high blood sugar.",
+"pertanyaan": "Insulin is... (Insulin adalah...)",
+"pilihan": {
+"A": "a hormone (sebuah hormon)",
+"B": "a drug (sebuah obat)",
+"C": "a disease (sebuah penyakit)",
+"D": "an organ (sebuah organ tubuh)",
+"E": "a cell (sebuah sel)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Insulin adalah...'. Clue/Trik: Lakukan pemindaian (scanning) kata 'insulin' di paragraf pertama. Ada kalimat: 'A polypeptide hormone, insulin is synthesized...' (Hormon polipeptida, insulin disintesis...). Dalam tata bahasa Inggris, struktur koma penjelas ini disebut 'appositive'. Frasa sebelum koma menjelaskan kata insulin. Jadi, insulin adalah sebuah hormon (pilihan A)."
+},
+{
+"id": 12,
+"paket": 1,
+"nomor": 12,
+"kategori": "Reading Comprehension",
+"judul_teks": "Diabetes Mellitus (Kencing Manis)",
+"teks": "Diabetes Mellitus is a disorder of carbohydrate metabolism resulting from insufficient production of insulin or reduced sensitivity to insulin. A polypeptide hormone, insulin is synthesized in the pancreas and is necessary for normal utilization of glucose by most cells in the body. People with diabetes suffer an inhibition in the normal ability of body cells to use glucose, which results in increased blood sugar levels. As more glucose accumulates in the blood, excess levels of sugar are excreted in the urine.\n\nThere are two varieties of the disease, Type 1 and Type 2. The two types were previously designated by Roman numerals, but now Arabic numerals are used; for example, Type II is now known as Type 2. Type 1 was formerly referred to as juvenile onset diabetes, but it can occur at any age. In Type 1 diabetes, insulin is not secreted by the pancreas, so it must be injected. This type of diabetes is most often seen in people whose parents, siblings, or other close relatives are affected by the disease.\n\nType 2, representing 90 percent of all diabetes, used to be called adult onset diabetes, but it can also occur at any age. It results from sluggish pancreatic insulin secretion and tissue resistance to secreted insulin, which is complicated by subtle changes in the secretion of insulin by the beta cells. It is generally controlled by dietary restriction. People who are at risk for this type include: women who have delivered a baby of 9 pounds or more or have been diagnosed with gestational diabetes; people over 45 years of age, particularly those of African-American, Asian-American, Hispanic, Native American, or Pacific Islander heritage; those who have a history of diabetes in the family; those who are obese; and those with high blood pressure, a high triglyceride level, or high blood sugar.",
+"pertanyaan": "The word 'it' in line 12 refers to... (Kata 'it' pada baris ke-12 merujuk pada...)",
+"pilihan": {
+"A": "insulin (insulin)",
+"B": "Type 1 diabetes (diabetes Tipe 1)",
+"C": "Type 2 diabetes (diabetes Tipe 2)",
+"D": "pancreas (pankreas)",
+"E": "age (usia)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Kata \"it\" pada baris 12 merujuk pada...'. Clue/Trik: Baca utuh kalimat sebelum kata 'it': 'In Type 1 diabetes, insulin is not secreted by the pancreas, so it must be injected' (Pada diabetes Tipe 1, insulin tidak disekresi oleh pankreas, sehingga 'ia' harus disuntikkan). Kata ganti tunggal 'it' berfungsi menggantikan benda tunggal terdekat sebelumnya. Apa yang harus disuntikkan? Tentu saja insulin. Maka jawabannya A."
+},
+{
+"id": 13,
+"paket": 1,
+"nomor": 13,
+"kategori": "Reading Comprehension",
+"judul_teks": "Diabetes Mellitus (Kencing Manis)",
+"teks": "Diabetes Mellitus is a disorder of carbohydrate metabolism resulting from insufficient production of insulin or reduced sensitivity to insulin. A polypeptide hormone, insulin is synthesized in the pancreas and is necessary for normal utilization of glucose by most cells in the body. People with diabetes suffer an inhibition in the normal ability of body cells to use glucose, which results in increased blood sugar levels. As more glucose accumulates in the blood, excess levels of sugar are excreted in the urine.\n\nThere are two varieties of the disease, Type 1 and Type 2. The two types were previously designated by Roman numerals, but now Arabic numerals are used; for example, Type II is now known as Type 2. Type 1 was formerly referred to as juvenile onset diabetes, but it can occur at any age. In Type 1 diabetes, insulin is not secreted by the pancreas, so it must be injected. This type of diabetes is most often seen in people whose parents, siblings, or other close relatives are affected by the disease.\n\nType 2, representing 90 percent of all diabetes, used to be called adult onset diabetes, but it can also occur at any age. It results from sluggish pancreatic insulin secretion and tissue resistance to secreted insulin, which is complicated by subtle changes in the secretion of insulin by the beta cells. It is generally controlled by dietary restriction. People who are at risk for this type include: women who have delivered a baby of 9 pounds or more or have been diagnosed with gestational diabetes; people over 45 years of age, particularly those of African-American, Asian-American, Hispanic, Native American, or Pacific Islander heritage; those who have a history of diabetes in the family; those who are obese; and those with high blood pressure, a high triglyceride level, or high blood sugar.",
+"pertanyaan": "According to the passage, insulin is produced... (Berdasarkan bacaan, insulin diproduksi...)",
+"pilihan": {
+"A": "in most cells (di sebagian besar sel)",
+"B": "in tissue (di dalam jaringan tubuh)",
+"C": "in hormones (di dalam hormon)",
+"D": "in glucose (di dalam glukosa)",
+"E": "in the pancreas (di dalam pankreas)"
+},
+"jawaban_benar": "E",
+"penjelasan": "Arti Pertanyaan: 'Berdasarkan bacaan, insulin diproduksi di...'. Clue/Trik: Cari kata 'produced' atau sinonimnya. Pada paragraf pertama kalimat kedua, terdapat frasa 'insulin is synthesized in the pancreas' (insulin disintesis di pankreas). Kata 'synthesize' memiliki arti yang sama dengan 'produced' (dibuat/diproduksi). Maka, jawabannya adalah pilihan E."
+},
+{
+"id": 14,
+"paket": 1,
+"nomor": 14,
+"kategori": "Reading Comprehension",
+"judul_teks": "Diabetes Mellitus (Kencing Manis)",
+"teks": "Diabetes Mellitus is a disorder of carbohydrate metabolism resulting from insufficient production of insulin or reduced sensitivity to insulin. A polypeptide hormone, insulin is synthesized in the pancreas and is necessary for normal utilization of glucose by most cells in the body. People with diabetes suffer an inhibition in the normal ability of body cells to use glucose, which results in increased blood sugar levels. As more glucose accumulates in the blood, excess levels of sugar are excreted in the urine.\n\nThere are two varieties of the disease, Type 1 and Type 2. The two types were previously designated by Roman numerals, but now Arabic numerals are used; for example, Type II is now known as Type 2. Type 1 was formerly referred to as juvenile onset diabetes, but it can occur at any age. In Type 1 diabetes, insulin is not secreted by the pancreas, so it must be injected. This type of diabetes is most often seen in people whose parents, siblings, or other close relatives are affected by the disease.\n\nType 2, representing 90 percent of all diabetes, used to be called adult onset diabetes, but it can also occur at any age. It results from sluggish pancreatic insulin secretion and tissue resistance to secreted insulin, which is complicated by subtle changes in the secretion of insulin by the beta cells. It is generally controlled by dietary restriction.",
+"pertanyaan": "What is a suitable title for this passage? (Apa judul yang cocok untuk bacaan ini?)",
+"pilihan": {
+"A": "Treatment of Diabetes (Pengobatan Diabetes)",
+"B": "An Overview of Diabetes (Gambaran Umum tentang Diabetes)",
+"C": "Juvenile Diabetes a Killer (Diabetes Anak-Anak sang Pembunuh)",
+"D": "How to Diagnose Diabetes (Cara Mendiagnosis Diabetes)",
+"E": "Two Varieties of Diabetes (Dua Macam Penyakit Diabetes)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Apa judul yang tepat untuk bacaan ini?'. Clue/Trik: Pilihlah opsi yang merangkum keseluruhan isi paragraf. Teks ini membahas pengertian diabetes, tipe 1 & 2 secara merata, gejalanya, cara diagnosis, serta komplikasinya. Opsi A, C, D, dan E terlalu sempit karena hanya membahas sebagian isi paragraf saja. Maka pilihan B 'An Overview of Diabetes' (Gambaran Umum/Menyeluruh) adalah jawaban paling representatif."
+},
+{
+"id": 15,
+"paket": 1,
+"nomor": 15,
+"kategori": "Reading Comprehension",
+"judul_teks": "Diabetes Mellitus (Kencing Manis)",
+"teks": "Diabetes Mellitus is a disorder of carbohydrate metabolism resulting from insufficient production of insulin or reduced sensitivity to insulin. There are two varieties of the disease, Type 1 and Type 2. In Type 1 diabetes, insulin is not secreted by the pancreas, so it must be injected. Type 2 results from sluggish pancreatic insulin secretion and tissue resistance to secreted insulin, it is generally controlled by dietary restriction.",
+"pertanyaan": "The author distinguishes between Type 1 and Type 2 diabetes to describe how... (Penulis membedakan antara diabetes Tipe 1 dan Tipe 2 untuk menjelaskan bagaimana...)",
+"pilihan": {
+"A": "one affects only juveniles and the other affects only adults (yang satu hanya menyerang anak-anak dan yang lainnya hanya menyerang orang dewasa)",
+"B": "the symptoms and treatment are different (gejala dan cara pengobatannya berbeda)",
+"C": "the two types are extremely similar to each other (kedua tipe sangat mirip satu sama lain)",
+"D": "the understanding of the disease has improved over time (pemahaman tentang penyakit ini telah meningkat seiring waktu)",
+"E": "region and a history of diabetes in the family affected a person (faktor wilayah dan riwayat diabetes di keluarga memengaruhi seseorang)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Mengapa penulis membedakan diabetes Tipe 1 dan Tipe 2?'. Clue/Trik: Bandingkan kalimat penanganan kedua tipe ini di teks. Tipe 1 tidak mensekresi insulin sama sekali sehingga 'must be injected' (harus disuntik). Tipe 2 disebabkan resistensi jaringan dan dikontrol lewat 'dietary restriction' (diet makanan). Penulis membedakan keduanya untuk memperlihatkan perbedaan gejala dan penanganan/pengobatan (B)."
+},
+{
+"id": 16,
+"paket": 1,
+"nomor": 16,
+"kategori": "Reading Comprehension",
+"judul_teks": "Dinosaur Fossil Discovery (Fosil Dinosaurus)",
+"teks": "Scientists have discovered the bones of what may be the largest meat-eating dinosaur ever to walk the earth. The discovery was made by a team of researchers from Argentina and North America in Patagonia, a desert on the eastern slopes of the Andes in South South America. Besides the interesting fact that the dinosaur was huge and horrifying, it is even more astounding that the bones of a number of the dinosaurs were found together. This discovery challenges the prior theory that the biggest meat-eaters lived as loners and instead indicates that they may have lived and hunted in packs. The Tyrannosaurus Rex lived in North America and was believed to hunt and live alone.",
+"pertanyaan": "The author states that the newly discovered dinosaur remains are evidence that it was the largest... (Penulis menyatakan bahwa sisa-sisa fosil dinosaurus yang baru ditemukan ini adalah bukti bahwa ia merupakan... yang terbesar)",
+"pilihan": {
+"A": "dinosaur ever (dinosaurus terbesar yang pernah ada)",
+"B": "carnivorous dinosaur (dinosaurus pemakan daging / karnivora terbesar)",
+"C": "herbivorous dinosaur (dinosaurus pemakan tumbuhan / herdivora terbesar)",
+"D": "South American dinosaur (dinosaurus Amerika Selatan terbesar)",
+"E": "discovery of dinosaur bones (penemuan tulang dinosaurus terbesar)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Penulis menyatakan bahwa fosil baru tersebut membuktikan bahwa dinosaurus ini adalah... yang terbesar'. Clue/Trik: Di kalimat pertama tertulis 'largest meat-eating dinosaur'. Kamu harus mencari istilah bahasa Inggris dari 'meat-eating' (pemakan daging), yaitu 'carnivorous'. Maka, pilihan yang benar adalah B."
+},
+{
+"id": 17,
+"paket": 1,
+"nomor": 17,
+"kategori": "Vocabulary",
+"judul_teks": "Dinosaur Fossil Discovery (Fosil Dinosaurus)",
+"teks": "Besides the interesting fact that the dinosaur was huge and horrifying, it is even more astounding that the bones of a number of the dinosaurs were found together.",
+"pertanyaan": "The word 'astounding' in line 5 is closest in meaning to... (Kata 'astounding' pada baris ke-5 memiliki makna yang paling dekat dengan...)",
+"pilihan": {
+"A": "terrifying (sangat menakutkan)",
+"B": "pleasing (menyenangkan)",
+"C": "displeasing (tidak menyenangkan)",
+"D": "surprising (mengejutkan)",
+"E": "frightening (menakutkan)"
+},
+"jawaban_benar": "D",
+"penjelasan": "Arti Pertanyaan: 'Sinonim kata astounding di teks'. Clue/Trik: Kata 'astounding' bermakna 'menakjubkan' atau 'sangat mengejutkan'. Dari pilihan ganda yang tersedia, kata 'surprising' (mengejutkan) memiliki kedekatan makna yang paling pas (D). Terrifying/frightening berarti menakutkan, sedangkan pleasing artinya menyenangkan."
+},
+{
+"id": 18,
+"paket": 1,
+"nomor": 18,
+"kategori": "Reading Comprehension",
+"judul_teks": "Dinosaur Fossil Discovery (Fosil Dinosaurus)",
+"teks": "Besides the interesting fact that the dinosaur was huge and horrifying, it is even more astounding that the bones of a number of the dinosaurs were found together. This discovery challenges the prior theory that the biggest meat-eaters lived as loners and instead indicates that they may have lived and hunted in packs. The Tyrannosaurus Rex lived in North America and was believed to hunt and live alone.",
+"pertanyaan": "The author implies that the most interesting fact about the find is that this dinosaur... (Penulis menyiratkan secara tidak langsung bahwa fakta paling menarik dari penemuan ini adalah dinosaurus ini...)",
+"pilihan": {
+"A": "lived and hunted with others (hidup dan berburu bersama kelompok/dinosaurus lainnya)",
+"B": "had a powerful jaw and sharp teeth (memiliki rahang yang kuat dan gigi yang tajam)",
+"C": "was found in the Andes (ditemukan di pegunungan Andes)",
+"D": "was larger than Tyrannosaurus Rex (berukuran lebih besar daripada Tyrannosaurus Rex)",
+"E": "was lived and hunted by Tyrannosaurus Rex (ditinggali dan diburu oleh Tyrannosaurus Rex)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Fakta tersirat (implied) yang paling menarik tentang dinosaurus ini...'. Clue/Trik: Di teks tertulis 'it is even more astounding that the bones of a number of the dinosaurs were found together... indicates they lived and hunted in packs'. Penemuan tulang yang berkumpul bersama meruntuhkan teori lama, membuktikan bahwa mereka hidup dan berburu secara berkelompok ('lived and hunted with others' atau 'in packs'). Jawabannya A."
+},
+{
+"id": 19,
+"paket": 1,
+"nomor": 19,
+"kategori": "Reading Comprehension",
+"judul_teks": "Dinosaur Fossil Discovery (Fosil Dinosaurus)",
+"teks": "Besides the interesting fact that the dinosaur was huge and horrifying, it is even more astounding that the bones of a number of the dinosaurs were found together. This discovery challenges the prior theory that the biggest meat-eaters lived as loners and instead indicates that they may have lived and hunted in packs. The Tyrannosaurus Rex lived in North America and was believed to hunt and live alone.",
+"pertanyaan": "The passage indicates that prior to this discovery scientists believed that... (Bacaan tersebut menunjukkan bahwa sebelum penemuan ini, para ilmuwan meyakini bahwa...)",
+"pilihan": {
+"A": "meat-eating dinosaurs lived and hunted in group (dinosaurus pemakan daging hidup dan berburu dalam kelompok)",
+"B": "there were no meat-eating dinosaurs in the Andes (tidak ada dinosaurus pemakan daging di pegunungan Andes)",
+"C": "Tyrannosaurus Rex lived in the Andes (Tyrannosaurus Rex hidup di pegunungan Andes)",
+"D": "meat-eating dinosaurs were small in stature (dinosaurus pemakan daging berukuran tubuh kecil)",
+"E": "meat-eating dinosaurs lived alone (dinosaurus pemakan daging hidup menyendiri)"
+},
+"jawaban_benar": "E",
+"penjelasan": "Arti Pertanyaan: 'Apa yang dipercayai ilmuwan SEBELUM (prior to) penemuan ini?'. Clue/Trik: Temukan kata kunci 'prior theory' (teori sebelumnya) di teks: 'This discovery challenges the prior theory that the biggest meat-eaters lived as loners...' (penemuan ini menantang teori lama bahwa dinosaurus pemakan daging hidup sebagai penyendiri). Istilah 'loner' bersinonim dengan 'lived alone' (hidup menyendiri/sendirian). Jadi pilihan E yang tepat."
+},
+{
+"id": 20,
+"paket": 1,
+"nomor": 20,
+"kategori": "Reading Comprehension",
+"judul_teks": "Dinosaur Fossil Discovery (Fosil Dinosaurus)",
+"teks": "The newly discovered meat-eater appears to be related to the Giganotosaurus family, being as closely related to it as a fox would be to a dog. It is actually not of the same family at all as the Tyrannosaurus Rex, being as different from it as a cat is from a dog.",
+"pertanyaan": "The word 'it' in line 12 refers to... (Kata 'it' pada baris ke-12 merujuk pada...)",
+"pilihan": {
+"A": "newly discovered meat-eater (hewan pemakan daging yang baru ditemukan)",
+"B": "relationship (hubungan)",
+"C": "Giganotosaurus (Giganotosaurus)",
+"D": "dog (anjing)",
+"E": "meat-eater (hewan pemakan daging)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Kata \"it\" di baris 12 merujuk pada...'. Clue/Trik: Perhatikan struktur kalimatnya: 'The newly discovered meat-eater appears to be related to the Giganotosaurus family, being as closely related to IT as a fox would be to a dog'. Kata 'it' di sini berfungsi untuk menghindari pengulangan nama keluarga dinosaurus yang disebutkan sebelumnya, yaitu 'Giganotosaurus'. Maka jawabannya C."
+}
+]

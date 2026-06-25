@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasil Belajar - YasaLearn English</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Top Navbar Removed -->
+
+  <!-- Result Content -->
+  <div class="container flex justify-center items-center" style="min-height: 70vh;">
+    <div class="glass-card text-center" style="max-width: 500px; width: 100%;">
+      <div style="display:inline-flex; align-items:center; justify-content:center; width:80px; height:80px; border-radius:50%; background:var(--primary); color:white; margin-bottom:24px;">
+        <i data-lucide="award" width="40" height="40"></i>
+      </div>
+      
+      <h2 class="text-2xl font-bold" style="margin-bottom: 8px;">Selesai!</h2>
+      <p class="text-secondary" style="margin-bottom: 32px;">Kamu telah menyelesaikan Paket <span id="resPaket">1</span></p>
+
+      <div class="stats-row" style="margin-bottom: 32px;">
+        <div class="stat-box" style="background: rgba(186,161,200,0.1); border-color: var(--accent);">
+          <div class="text-xs text-secondary mb-2">Nilai Akhir</div>
+          <div class="text-3xl font-bold text-accent" id="resScore">0</div>
+        </div>
+      </div>
+
+      <div class="flex justify-center gap-md">
+        <a href="study.html" class="btn btn-outline" onclick="Storage.set('current_paket', Storage.get('current_paket'))"><i data-lucide="refresh-cw"></i> Ulangi</a>
+        <a href="dashboard.html" class="btn btn-primary">Ke Dashboard <i data-lucide="arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

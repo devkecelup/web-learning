@@ -1,0 +1,362 @@
+[
+{
+"id": 1,
+"paket": 2,
+"nomor": 1,
+"kategori": "Reading Comprehension",
+"judul_teks": "Dinosaur Fossil Discovery (Fosil Dinosaurus)",
+"teks": "The newly discovered meat-eater appears to be related to the Giganotosaurus family, being as closely related to it as a fox would be to a dog. It is actually not of the same family at all as the Tyrannosaurus Rex, being as different from it as a cat is from a dog.",
+"pertanyaan": "The author states that the newly discovered meat-eating dinosaur is... (Penulis menyatakan bahwa dinosaurus pemakan daging yang baru saja ditemukan ini...)",
+"pilihan": {
+"A": "closely related to the fox (berkerabat dekat dengan rubah)",
+"B": "not closely related to Giganotosaurus (tidak berkerabat dekat dengan Giganotosaurus)",
+"C": "not closely related to Tyrannosaurus Rex (tidak berkerabat dekat dengan Tyrannosaurus Rex)",
+"D": "closely related to Tyrannosaurus Rex (berkerabat dekat dengan Tyrannosaurus Rex)",
+"E": "closely related to the large cat family (berkerabat dekat dengan keluarga kucing besar)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Penulis menyatakan bahwa dinosaurus baru ini...'. Clue/Trik: Di paragraf 2 tertulis jelas: 'It is actually not of the same family at all as the Tyrannosaurus Rex' (Dinosaurus ini sebenarnya sama sekali bukan dari keluarga yang sama dengan T-Rex). Kalimat ini memiliki arti yang sama dengan pilihan C: 'not closely related' (tidak berkerabat dekat)."
+},
+{
+"id": 2,
+"paket": 2,
+"nomor": 2,
+"kategori": "Vocabulary",
+"judul_teks": "Dinosaur Fossil Discovery (Fosil Dinosaurus)",
+"teks": "With needle-shaped noses and razor sharp teeth, they were larger than the Tyrannosaurus Rex, although their legs were slightly shorter, and their jaws were designed to be better able to dissect their prey quickly and precisely.",
+"pertanyaan": "The word 'dissect' in line 17 is closest in meaning to... (Kata 'dissect' pada baris ke-17 memiliki makna yang paling dekat dengan...)",
+"pilihan": {
+"A": "dismember (mencabik/memotong anggota tubuh)",
+"B": "swallow (menelan)",
+"C": "chew (mengunyah)",
+"D": "escape (melarikan diri/lolos)",
+"E": "catch (menangkap)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Sinonim kata dissect'. Clue/Trik: Secara harfiah, 'dissect' berarti memotong-motong atau membedah tubuh. Konteks dinosaurus memang mencabik mangsa menggunakan rahang tajamnya. Dari pilihan yang tersedia, kata 'dismember' (memotong-motong anggota tubuh/mencabik) memiliki makna paling dekat (A)."
+},
+{
+"id": 3,
+"paket": 2,
+"nomor": 3,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bionic Computer Chip (Chip Komputer Bionik)",
+"teks": "Scientists have developed a new bionic computer chip that can be mated with human cells to combat disease. The tiny device, smaller and thinner than a strand of hair, combines a healthy human cell with an electronic circuitry chip. Doctors can control the activity of the cell by controlling the chip with a computer.\n\nIt has long been established that cell membranes become permeable when exposed to electrical impulses. Researchers have conducted genetic research for years with a trial-and-error process of bombarding cells with electricity in an attempt to introduce foreign substances such as new drug treatments or genetic material. They were unable to apply a particular level of voltage for a particular purpose. With the new invention, the computer sends electrical impulses to the chip, which triggers the cell's membrane pores to open and activate the cell in order to correct diseased tissues. It permits physicians to open a cell's pores with control.",
+"pertanyaan": "The author implies that scientists are excited about the new technology because... (Penulis secara tidak langsung menyiratkan bahwa para ilmuwan bersemangat mengenai teknologi baru ini karena...)",
+"pilihan": {
+"A": "it is less expensive than current techniques (harganya lebih murah daripada teknik saat ini)",
+"B": "it allows them to be able to shock cells for the first time (alat ini memungkinkan mereka menyetrum sel untuk pertama kalinya)",
+"C": "it is more precise than previous techniques (alat ini jauh lebih presisi/akurat dibandingkan teknik sebelumnya)",
+"D": "it is possible to kill cancer with a single jolt (kanker bisa dimatikan hanya dengan satu sengatan listrik)",
+"E": "It is more healthy for human cell (teknologi ini lebih sehat bagi sel manusia)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Mengapa ilmuwan sangat antusias dengan teknologi bionik baru ini?'. Clue/Trik: Di paragraf kedua diceritakan kalau metode yang lama itu hanyalah 'trial-and-error' (tebak-tebakan/coba-coba) tanpa takaran listrik yang pas. Tapi alat baru ini 'permits physicians to open cell's pores with control' (bisa dikontrol secara pasti). Artinya, teknologi ini jauh lebih akurat/presisi ('more precise') dari teknik lama (pilihan C)."
+},
+{
+"id": 4,
+"paket": 2,
+"nomor": 4,
+"kategori": "Vocabulary",
+"judul_teks": "Bionic Computer Chip (Chip Komputer Bionik)",
+"teks": "They were unable to apply a particular level of voltage for a particular purpose. With the new invention, the computer sends electrical impulses to the chip, which triggers the cell's membrane pores to open...",
+"pertanyaan": "The word 'particular' in line 15 is closest in meaning to... (Kata 'particular' pada baris ke-15 memiliki makna yang paling dekat dengan...)",
+"pilihan": {
+"A": "huge (sangat besar)",
+"B": "slight (sedikit/ringan)",
+"C": "specific (tertentu/spesifik)",
+"D": "developed (berkembang/maju)",
+"E": "controlled (terkendali)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Sinonim kata particular'. Clue/Trik: Kalimatnya berbunyi 'apply a particular level of voltage' (mengalirkan tingkat voltase tertentu). Kata 'particular' di sini bermakna 'khusus', 'tertentu', atau 'spesifik'. Oleh karena itu, kata yang paling tepat menggantikannya adalah 'specific' (pilihan C)."
+},
+{
+"id": 5,
+"paket": 2,
+"nomor": 5,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bionic Computer Chip (Chip Komputer Bionik)",
+"teks": "Researchers have conducted genetic research for years with a trial-and-error process of bombarding cells with electricity in an attempt to introduce foreign substances such as new drug treatments or genetic material.",
+"pertanyaan": "The author implies that up to now, the point of applying electric impulse to cells was to... (Penulis menyiratkan secara tidak langsung bahwa hingga saat ini, tujuan pemberian impuls listrik pada sel adalah untuk...)",
+"pilihan": {
+"A": "kill them (membunuh sel)",
+"B": "open their walls to introduce medication (membuka dinding sel untuk memasukkan obat-obatan)",
+"C": "stop growth (menghentikan pertumbuhan)",
+"D": "combine cells (menggabungkan sel-sel)",
+"E": "develop diseased tissues (mengembangkan jaringan yang berpenyakit)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Apa tujuan menembakkan impuls listrik ke sel selama ini?'. Clue/Trik: Di paragraf 2 tertulis bahwa ilmuwan menembak sel dengan listrik 'in an attempt to introduce foreign substances such as new drug treatments' (dalam upaya memasukkan zat asing seperti obat baru). Listrik membuat sel menjadi tembus/permeable, sehingga pintu dinding sel terbuka dan obat bisa masuk. Jadi pilihan B adalah jawaban tersirat yang paling tepat."
+},
+{
+"id": 6,
+"paket": 2,
+"nomor": 6,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bionic Computer Chip (Chip Komputer Bionik)",
+"teks": "Researchers hope that eventually they will be able to develop more advanced chips whereby they can choose a particular voltage to activate particular tissues, whether they be muscle, bone, brain, or others.",
+"pertanyaan": "The word 'others' in line 16 refers to... (Kata 'others' pada baris ke-16 merujuk pada...)",
+"pilihan": {
+"A": "researchers (para peneliti)",
+"B": "advanced chips (chip tingkat lanjut)",
+"C": "voltages (voltase/tegangan listrik)",
+"D": "tissues (jaringan tubuh)",
+"E": "multiple chips (beberapa chip sekaligus)"
+},
+"jawaban_benar": "D",
+"penjelasan": "Arti Pertanyaan: 'Kata others merujuk pada apa?'. Clue/Trik: Lihat urutan kata yang disejajarkan oleh kata 'whether' sebelum kata 'others': 'activate particular tissues, whether they be muscle, bone, brain, or others' (mengaktifkan jaringan tertentu, entah itu otot, tulang, otak, atau lainnya). 'Lainnya' di sini jelas mengacu kepada jaringan (tissues) jenis lainnya. Jawabannya adalah D."
+},
+{
+"id": 7,
+"paket": 2,
+"nomor": 7,
+"kategori": "Reading Comprehension",
+"judul_teks": "Bionic Computer Chip (Chip Komputer Bionik)",
+"teks": "They believe that they will be able to implant multiple chips into a person to deal with one problem or more than one problem.",
+"pertanyaan": "The author indicates that it is expected doctors will be able to... (Penulis menunjukkan bahwa di masa depan para dokter diharapkan akan dapat...)",
+"pilihan": {
+"A": "place one large chip in a person to control multiple problems (menanamkan satu chip besar pada seseorang untuk mengendalikan banyak masalah)",
+"B": "place more than one chip in a single person (menanamkan lebih dari satu chip di dalam tubuh satu orang)",
+"C": "place a chip directly inside a cell (menanamkan chip langsung ke dalam sebuah sel)",
+"D": "place a chip inside a strand of hair (menanamkan chip ke dalam sehelai rambut)",
+"E": "place many chips to one or more problems (menanamkan banyak chip untuk menyelesaikan satu atau lebih masalah)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Di masa depan, apa yang diharapkan bisa dilakukan dokter?'. Clue/Trik: Temukan kata kunci pada kalimat terakhir teks: 'implant multiple chips into a person'. Kata 'multiple' memiliki makna jamak atau lebih dari satu. Padanan kata yang persis artinya di pilihan ganda adalah 'place more than one chip' (pilihan B)."
+},
+{
+"id": 8,
+"paket": 2,
+"nomor": 8,
+"kategori": "Reading Comprehension",
+"judul_teks": "George Gershwin (Komposer George Gershwin)",
+"teks": "The American composer, George Gershwin, was born in 1898 in Brooklyn, New York... He dropped out of school at age 15 and earned a living... Swanee became a hit, and Gershwin became an overnight celebrity when his song sold more than 2 million recordings and a million copies of sheet music.",
+"pertanyaan": "Which of the following statements best expresses the main idea of the passage? (Manakah dari pernyataan berikut yang paling tepat menyatakan ide pokok dari bacaan di atas?)",
+"pilihan": {
+"A": "Russian immigrants in America were all musical and creative (Imigran Rusia di Amerika semuanya berbakat musik dan kreatif)",
+"B": "The Gershwins were school dropouts who became successes in show business (Keluarga Gershwin adalah anak putus sekolah yang sukses di dunia hiburan)",
+"C": "George Gershwin became a famous composer before he was 30 (George Gershwin menjadi komposer terkenal sebelum berusia 30 tahun)",
+"D": "Musical training on Broadway did not prepare the Gershwins for success (Pelatihan musik di Broadway tidak mempersiapkan keluarga Gershwin menuju kesuksesan)",
+"E": "Gershwin's talent impressed his family, his teacher, and American composers (Bakat Gershwin membuat kagum keluarganya, gurunya, dan para komposer Amerika)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Ide pokok keseluruhan teks'. Clue/Trik: Teks ini menceritakan biografi karir George Gershwin yang menanjak sangat cepat. Ia lahir tahun 1898, mulai terkenal lewat lagu Swanee tahun 1919 (saat umurnya masih 21 tahun), dan menjadi komposer sukses tingkat tinggi di usia yang sangat muda (sebelum usia 30 tahun). Opsi C adalah rangkuman perjalanan hidupnya yang paling tepat."
+},
+{
+"id": 9,
+"paket": 2,
+"nomor": 9,
+"kategori": "Reading Comprehension",
+"judul_teks": "George Gershwin (Komposer George Gershwin)",
+"teks": "He studied piano with a famous music teacher at the time, Charles Hambitzer. He was so impressed with Gershwin's talent that he gave him lessons for free.",
+"pertanyaan": "The word 'he' in line 8 refers to... (Kata 'he' pada baris ke-8 merujuk pada...)",
+"pilihan": {
+"A": "Gershwin (Gershwin)",
+"B": "Charles Hambitzer (Charles Hambitzer)",
+"C": "Gershwin's father (Ayah Gershwin)",
+"D": "Gershwin's neighbor (Tetangga Gershwin)",
+"E": "the son of Russian-Jewish immigrants (anak laki-laki dari imigran Rusia-Yahudi)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Kata he merujuk pada siapa?'. Clue/Trik: Perhatikan struktur kalimatnya: 'He studied piano with Charles Hambitzer. He was so impressed...'. 'He' yang pertama merujuk pada Gershwin yang belajar. 'He' yang kedua berada pada kalimat baru yang menyatakan ketertarikan/kekaguman hingga rela memberi les gratis. Siapa yang kagum dan memberi les gratis? Tentu saja gurunya, Charles Hambitzer (B)."
+},
+{
+"id": 10,
+"paket": 2,
+"nomor": 10,
+"kategori": "Reading Comprehension",
+"judul_teks": "George Gershwin (Komposer George Gershwin)",
+"teks": "He began his musical education at age 11, when his family bought a second-hand piano. The piano was not bought for him, but for his older brother, Ira.",
+"pertanyaan": "According to the passage, who did the Gershwin parents buy the piano for? (Berdasarkan bacaan, untuk siapa orang tua Gershwin membeli piano tersebut?)",
+"pilihan": {
+"A": "George Gershwin (George Gershwin)",
+"B": "Charles Hambitzer (Charles Hambitzer)",
+"C": "Other Russian immigrants (Imigran Rusia lainnya)",
+"D": "Ira Gershwin (Ira Gershwin)",
+"E": "Gershwin's teacher (Guru Gershwin)"
+},
+"jawaban_benar": "D",
+"penjelasan": "Arti Pertanyaan: 'Untuk siapa orang tua membeli piano tersebut?'. Clue/Trik: Cari kata 'bought piano' di teks. Di baris ke 3-4 tertulis jelas: 'The piano was not bought for him, but for his older brother, Ira' (Piano itu tidak dibeli untuk dia [George], tetapi untuk kakaknya, Ira). Jawabannya adalah D."
+},
+{
+"id": 11,
+"paket": 2,
+"nomor": 11,
+"kategori": "Reading Comprehension",
+"judul_teks": "George Gershwin (Komposer George Gershwin)",
+"teks": "He studied piano with a famous music teacher at the time, Charles Hambitzer. He was so impressed with Gershwin's talent that he gave him lessons for free.",
+"pertanyaan": "According to the passage, why did George's piano teacher give him lessons for free? (Menurut bacaan, mengapa guru piano George memberinya les secara gratis?)",
+"pilihan": {
+"A": "His parents were too poor to pay for the lessons (Orang tuanya terlalu miskin untuk membayar les)",
+"B": "The teacher was awed with George's talent (Sang guru sangat kagum dengan bakat George)",
+"C": "Famous piano teachers never received money from their students (Guru piano terkenal tidak pernah menerima uang dari siswa mereka)",
+"D": "Popular music was more important than classical music (Musik populer lebih penting daripada musik klasik)",
+"E": "Gershwin asked it to his teacher (Gershwin memintanya sendiri kepada gurunya)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Kenapa guru memberi les gratis?'. Clue/Trik: Cari kata kunci 'free' atau 'impressed' di teks. Ditulis bahwa Charles Hambitzer 'was so impressed with Gershwin's talent' (sangat terkesan dengan bakat Gershwin). Sinonim kata 'impressed' adalah 'awed' (terkagum-kagum). Jadi pilihan B adalah jawaban yang benar."
+},
+{
+"id": 12,
+"paket": 2,
+"nomor": 12,
+"kategori": "Reading Comprehension",
+"judul_teks": "George Gershwin (Komposer George Gershwin)",
+"teks": "Gershwin dropped out of school at age 15 and earned a living by making piano rolls for player pianos...",
+"pertanyaan": "All of the following are reasons that George Gershwin became a success while he was young EXCEPT... (Semua hal berikut adalah alasan George Gershwin sukses di usia muda, KECUALI...)",
+"pilihan": {
+"A": "He studied piano with a famous teacher (Ia belajar piano dengan guru yang terkenal)",
+"B": "He learned about jazz and popular music while he worked as a song plugger (Ia belajar tentang jazz dan musik populer saat bekerja sebagai song plugger)",
+"C": "He graduated from high school when he was only 15 (Ia lulus dari SMA ketika baru berusia 15 tahun)",
+"D": "He worked as an accompanist for popular singers in New York (Ia bekerja sebagai pengiring musik untuk penyanyi populer di New York)",
+"E": "He worked in Broadway musicals as a rehearsal pianist (Ia bekerja di pertunjukan musik Broadway sebagai pianis latihan)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Semua hal adalah alasan kesuksesan muda Gershwin, KECUALI...'. Clue/Trik: Cari pernyataan di pilihan yang bertolak belakang dengan teks. Di paragraf kedua tertulis: 'Gershwin dropped out of school at age 15' (Gershwin putus sekolah di umur 15 tahun). Berarti pilihan C yang menyatakan dia 'graduated high school' (lulus SMA) adalah pernyataan yang salah dan menjadi jawaban pengecualian yang kita cari."
+},
+{
+"id": 13,
+"paket": 2,
+"nomor": 13,
+"kategori": "Reading Comprehension",
+"judul_teks": "George Gershwin (Komposer George Gershwin)",
+"teks": "He particularly admired the music of Irving Berlin whom Gershwin called \"America's Franz Schubert.\"",
+"pertanyaan": "It can be inferred from the passage that... (Bisa disimpulkan secara tidak langsung dari bacaan bahwa...)",
+"pilihan": {
+"A": "Gershwin became a famous jazz pianist in Russia (Gershwin menjadi pianis jazz terkenal di Rusia)",
+"B": "Gershwin admired the music of Franz Schubert (Gershwin mengagumi musik karya Franz Schubert)",
+"C": "Gershwin disliked music by Kern and Berlin (Gershwin tidak menyukai musik karya Kern dan Berlin)",
+"D": "Gershwin never became a well-known musician (Gershwin tidak pernah menjadi musisi yang terkenal)",
+"E": "Gershwin and entertainer Al Jolson performed in the musical Sinbad (Gershwin dan penghibur Al Jolson tampil bersama di pertunjukan musik Sinbad)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Apa kesimpulan yang tersirat dari teks?'. Clue/Trik: Di paragraf 3 tertulis bahwa Gershwin menjuluki komposer idolanya sebagai 'America's Franz Schubert' (Franz Schubert-nya Amerika). Hal ini menunjukkan secara tersirat bahwa Gershwin juga mengetahui dan mengagumi Franz Schubert yang asli sehingga menggunakannya sebagai standar keagungan komposer musik. Pilihan B benar."
+},
+{
+"id": 14,
+"paket": 2,
+"nomor": 14,
+"kategori": "Reading Comprehension",
+"judul_teks": "Delivering Bad News (Menyampaikan Berita Buruk)",
+"teks": "What's the best way for you, as an employer, to deliver bad news to an employee? First of all, you have to break the news yourself, face to face with the recipient... Although it is never easy to break bad news, if you follow these steps, you will at least soften the blow.",
+"pertanyaan": "The author's main idea is that... (Ide pokok penulis adalah bahwa...)",
+"pilihan": {
+"A": "bad news is hard to impart (kabar buruk itu sulit disampaikan)",
+"B": "all employers have to criticize their employees (semua atasan harus mengkritik karyawannya)",
+"C": "there are ways of softening the impact of bad news (ada cara-cara untuk memperhalus dampak dari kabar buruk)",
+"D": "people respond emotionally to bad news (orang-orang merespons secara emosional terhadap kabar buruk)",
+"E": "how to tell bad news from an employee to an employer (bagaimana menyampaikan kabar buruk dari karyawan kepada atasan)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Ide pokok paragraf di atas'. Clue/Trik: Ide pokok biasanya disimpulkan di bagian akhir paragraf. Kalimat terakhir berbunyi: '...if you follow these steps, you will at least soften the blow' (jika kamu mengikuti langkah-langkah ini, kamu setidaknya bisa memperingan/memperhalus pukulan/dampak kabar tersebut). Maka ide pokoknya adalah ada cara-cara untuk meredam dampak berita buruk (softening the impact of bad news), yaitu pilihan C."
+},
+{
+"id": 15,
+"paket": 2,
+"nomor": 15,
+"kategori": "Reading Comprehension",
+"judul_teks": "The Cabildo (Dewan Kota Cabildo)",
+"teks": "Sometimes citizens were asked to attend an open town meeting on important matters. Such open meetings became very important to the movement for the independence of Hispanic America in the early nineteenth century.",
+"pertanyaan": "From the passage it can be inferred that some cabildos were... (Dari bacaan tersebut dapat disimpulkan secara tidak langsung bahwa beberapa cabildo...)",
+"pilihan": {
+"A": "poorly educated (kurang berpendidikan)",
+"B": "important (penting)",
+"C": "corrupt (korup)",
+"D": "independent (mandiri/independen)",
+"E": "acquisitive (tamak/suka menguasai)"
+},
+"jawaban_benar": "D",
+"penjelasan": "Arti Pertanyaan: 'Kesimpulan tersirat (infer) tentang lembaga cabildos'. Clue/Trik: Di kalimat akhir diceritakan rapat terbuka kota memicu 'movement for the independence' (gerakan untuk kemerdekaan/kebebasan mandiri). Dari kunci jawaban resmi, ditekankan kesimpulan bahwa dewan-dewan kota ini memiliki andil dalam melatih sifat independen/mandiri (independent) di masyarakat koloni Spanyol. Pilihan D benar."
+},
+{
+"id": 16,
+"paket": 2,
+"nomor": 16,
+"kategori": "Reading Comprehension",
+"judul_teks": "The Cabildo (Dewan Kota Cabildo)",
+"teks": "The cabildo, which is Spanish for \"municipal council,\" was the fundamental unit of local government in colonial Spanish America.",
+"pertanyaan": "Where was the cabildo used as a form of government? (Di mana cabildo digunakan sebagai bentuk pemerintahan?)",
+"pilihan": {
+"A": "In Roman colonies (Di koloni-koloni Romawi)",
+"B": "In Spanish colonies (Di koloni-koloni Spanyol)",
+"C": "In Roman provinces (Di provinsi-provinsi Romawi)",
+"D": "In Spanish provinces (Di provinsi-provinsi Spanyol)",
+"E": "Roman and Spanish provinces (Provinsi Romawi dan Spanyol)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Di mana pemerintahan Cabildo dipakai?'. Clue/Trik: Cari kata kunci di kalimat pertama: 'local government in colonial Spanish America' (pemerintahan lokal di wilayah kolonial Spanyol di Amerika). Wilayah kolonial (colonial) bersinonim dengan koloni-koloni (colonies). Maka cabildo digunakan di koloni Spanyol (B)."
+},
+{
+"id": 17,
+"paket": 2,
+"nomor": 17,
+"kategori": "Reading Comprehension",
+"judul_teks": "The Cabildo (Dewan Kota Cabildo)",
+"teks": "By the mid-sixteenth century, appointments to cabildos were ordinarily made by the Spanish crown and sometimes became hereditary. Occasionally, the propertied class in a city elected some of the councilors.",
+"pertanyaan": "From the passage it can be inferred that by the mid-sixteenth century, the cabildo was all of the following EXCEPT... (Dari bacaan dapat disimpulkan bahwa menjelang pertengahan abad ke-16, cabildo adalah hal-hal berikut, KECUALI...)",
+"pilihan": {
+"A": "Elected by all registered voters (Dipilih oleh seluruh pemilih terdaftar)",
+"B": "Appointed by the king (Ditunjuk oleh raja)",
+"C": "Came from the propertied class (Berasal dari kelas pemilik tanah/berharta)",
+"D": "Was an inherited office (Merupakan jabatan yang diwariskan turun-temurun)",
+"E": "Decided upon by the Spanish crown (Diputuskan oleh takhta Spanyol)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Cabildo mewakili karakteristik berikut, KECUALI...'. Clue/Trik: Di paragraf akhir dijelaskan penunjukan anggota cabildo dipilih oleh kelas berharta (propertied class) atau diturunkan (hereditary/inherited). Tidak pernah tertulis bahwa dewan ini dipilih oleh SEMURUH pemilih terdaftar (elected by all registered voters). Jadi, pilihan A adalah pernyataan yang salah sekaligus jawaban kita."
+},
+{
+"id": 18,
+"paket": 2,
+"nomor": 18,
+"kategori": "Reading Comprehension",
+"judul_teks": "Drug Abuse (Penyalahgunaan Obat)",
+"teks": "Without question, aspirin is a widely abused drug... on the principle that if two aspirins are recommended... people exceed the recommended dosage.",
+"pertanyaan": "A person who exceeds the recommended dosage of aspirin... (Seseorang yang mengonsumsi aspirin melebihi dosis yang dianjurkan...)",
+"pilihan": {
+"A": "is guilty of drug abuse (bersalah atas penyalahgunaan obat)",
+"B": "likes candy (menyukai permen)",
+"C": "is taking aspirin for a headache (meminum aspirin untuk sakit kepala)",
+"D": "is in for a treat (sedang menikmati kesenangan)",
+"E": "is taking four aspirins within 24 hours (meminum empat aspirin dalam waktu 24 jam)"
+},
+"jawaban_benar": "A",
+"penjelasan": "Arti Pertanyaan: 'Orang yang mengonsumsi aspirin melebihi dosis itu termasuk apa?'. Clue/Trik: Di akhir paragraf kesatu tertulis: 'people exceed the recommended dosage... Without question, aspirin is a widely abused drug' (orang melebihi dosis anjuran... Tanpa diragukan, aspirin adalah obat yang disalahgunakan secara luas). Ini berarti tindakan tersebut dinyatakan bersalah atas penyalahgunaan obat (is guilty of drug abuse), yaitu pilihan A."
+},
+{
+"id": 19,
+"paket": 2,
+"nomor": 19,
+"kategori": "Reading Comprehension",
+"judul_teks": "Drug Abuse (Penyalahgunaan Obat)",
+"teks": "Drug abuse is the taking of any substance... in any way that could damage the user's health... no more than two tablets every 4 hours and eight within 24 hours.",
+"pertanyaan": "If a person takes a dozen aspirins within 24 hours, he or she... (Jika seseorang meminum satu lusin aspirin dalam waktu 24 jam, ia...)",
+"pilihan": {
+"A": "is aiding the aspirin manufacturers (membantu produsen aspirin)",
+"B": "is endangering his or her health (membahayakan kesehatannya)",
+"C": "can relieve the pain (bisa meredakan rasa sakit)",
+"D": "can make his or her feel better (bisa membuat dirinya merasa lebih baik)",
+"E": "is concerned with his or her health (peduli terhadap kesehatannya)"
+},
+"jawaban_benar": "B",
+"penjelasan": "Arti Pertanyaan: 'Jika meminum satu lusin (12 butir) aspirin sehari, akibatnya...'. Clue/Trik: Di paragraf pertama tertulis dosis wajar maksimal dalam 24 jam hanyalah 8 tablet. Meminum 12 tablet sehari jelas melanggar dosis maksimal. Di baris pertama ditegaskan penyalahgunaan obat 'could damage the user's health' (bisa merusak kesehatan). Sinonim dari merusak kesehatan adalah membahayakan kesehatannya ('endangering his or her health' - B)."
+},
+{
+"id": 20,
+"paket": 2,
+"nomor": 20,
+"kategori": "Reading Comprehension",
+"judul_teks": "Drug Abuse (Penyalahgunaan Obat)",
+"teks": "A group of prohibitionists once asked Abraham Lincoln to support their cause. Sagely, he refused, replying that drunkenness is rooted not in the use of a bad thing, but in the abuse of a good thing.",
+"pertanyaan": "The author's reference to Abraham Lincoln... (Rujukan penulis mengenai Abraham Lincoln...)",
+"pilihan": {
+"A": "shows that Lincoln was a wise man (menunjukkan bahwa Lincoln adalah pria yang bijaksana)",
+"B": "emphasizes the relation between alcohol and alcoholism (menekankan hubungan antara alkohol dan alkoholisme)",
+"C": "conveys the idea that alcohol may be harmless (menyampaikan gagasan bahwa alkohol mungkin tidak berbahaya)",
+"D": "indicates that alcohol leads to drunkenness (menunjukkan bahwa alkohol menyebabkan kemabukan)",
+"E": "supports the bad things of alcohol (mendukung hal-hal buruk tentang alkohol)"
+},
+"jawaban_benar": "C",
+"penjelasan": "Arti Pertanyaan: 'Maksud penulis mengutip perkataan Abraham Lincoln'. Clue/Trik: Perkataan Lincoln berbunyi: 'drunkenness is rooted not in the use of a bad thing, but in the abuse of a good thing' (mabuk bukan disebabkan oleh memakai barang buruk, tetapi dari menyalahgunakan barang yang baik). Di sini Lincoln menganggap alkohol sebenarnya adalah 'barang baik' (good thing) yang tidak berbahaya asal tidak disalahgunakan. Kutipan ini digunakan penulis untuk menguatkan ide bahwa alkohol pada dasarnya tidak selalu berbahaya (harmless) jika dikonsumsi sesuai aturan. Pilihan C benar."
+}
+]

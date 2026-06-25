@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YasaLearn English - Premium Learning</title>
+  <meta name="description" content="Platform belajar Literasi Bahasa Inggris YasaLearn.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Top Navbar -->
+  <nav class="navbar container" style="margin-bottom: 24px;">
+    <div class="font-bold text-xl"><i data-lucide="book-open" style="display:inline-block; vertical-align:middle; margin-right:8px; color:var(--accent)"></i> <span style="font-weight: 300;">Yasa</span><span class="text-accent">Learn</span></div>
+    
+    <div class="flex items-center gap-sm">
+      <a href="#features" class="btn btn-outline text-xs" style="padding: 8px 16px; text-decoration: none;">Fitur</a>
+      <a href="dashboard.html" class="btn btn-primary text-xs" style="padding: 8px 16px; text-decoration: none;">Dashboard</a>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <header class="container hero-layout" style="margin-top: 48px; margin-bottom: 96px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;">
+    <div style="text-align: left;">
+      <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; margin-bottom: 24px; font-weight: 800; letter-spacing: -0.02em;">
+        Kuasai <span class="text-primary">Literasi<br>Bahasa Inggris</span><br>Tanpa Batas
+      </h1>
+      <p class="text-secondary" style="max-width: 500px; margin-bottom: 32px; font-size: 1.125rem; line-height: 1.6;">
+        Platform simulasi premium dengan Smart Review dan penjelasan komprehensif. Tanpa instalasi, 100% berjalan super cepat di browsermu.
+      </p>
+      <div class="flex gap-sm" style="flex-wrap: wrap;">
+        <a href="dashboard.html" class="btn btn-primary" style="padding: 14px 28px; font-size: 16px;">Mulai Belajar <i data-lucide="arrow-right"></i></a>
+        <a href="#features" class="btn btn-outline" style="padding: 14px 28px; font-size: 16px;">Lihat Fitur</a>
+      </div>
+    </div>
+    
+    <div class="hero-illustration" style="position: relative;">
+      <!-- Decorative Glass Card -->
+      <div class="glass-card" style="padding: 32px; border-radius: 32px; position: relative; z-index: 2; border: 1px solid rgba(255,255,255,0.1); background: linear-gradient(145deg, rgba(23,26,33,0.95), rgba(108,99,255,0.05));">
+        <div class="flex justify-between items-center" style="margin-bottom: 24px;">
+          <div class="badge outline" style="color: var(--success); border-color: var(--success);"><i data-lucide="check-circle" width="14" height="14" style="margin-right: 4px;"></i> Tepat Sasaran</div>
+          <span class="text-secondary font-bold text-sm">Review Soal</span>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Reading Comprehension</h3>
+        <p class="text-secondary text-sm" style="margin-bottom: 24px; line-height: 1.6;">"The development of artificial intelligence has significantly altered the landscape of modern industries..."</p>
+        
+        <div class="flex gap-sm" style="margin-bottom: 16px;">
+          <div style="flex: 1; padding: 12px; background: rgba(108,99,255,0.1); border: 1px solid var(--primary); border-radius: 12px; font-size: 14px; color: white; display: flex; align-items: center; gap: 8px;"><div style="width:16px;height:16px;border-radius:50%;background:var(--primary);"></div> A. True</div>
+          <div style="flex: 1; padding: 12px; background: rgba(255,255,255,0.02); border: 1px solid var(--card-border); border-radius: 12px; font-size: 14px; color: var(--text-secondary); display: flex; align-items: center; gap: 8px;"><div style="width:16px;height:16px;border-radius:50%;border:1px solid var(--card-border);"></div> B. False</div>
+        </div>
+        <div class="text-xs text-secondary italic" style="padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.05);">
+          ✨ Pembahasan terstruktur dan mendalam untuk setiap soal.
+        </div>
+      </div>
+      
+      <!-- Decorative blurs -->
+      <div style="position: absolute; width: 250px; height: 250px; background: var(--primary); filter: blur(120px); opacity: 0.35; top: -50px; right: -50px; border-radius: 50%; z-index: 1; pointer-events: none;"></div>
+      <div style="position: absolute; width: 200px; height: 200px; background: var(--accent); filter: blur(100px); opacity: 0.25; bottom: -50px; left: -30px; border-radius: 50%; z-index: 1; pointer-events: none;"></div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="container" style="margin-bottom: 64px;">
+    <div class="text-center" style="margin-bottom: 48px;">
+      <h2 class="text-2xl font-bold">Keunggulan Platform</h2>
+      <p class="text-secondary">Didesain khusus untuk kenyamanan belajar intensif.</p>
+    </div>
+    
+    <div class="features-grid">
+      <div class="glass-card">
+        <i data-lucide="brain" style="color: var(--accent); margin-bottom: 16px;" width="32" height="32"></i>
+        <h3 class="font-bold" style="margin-bottom: 8px;">Smart Review</h3>
+        <p class="text-secondary text-sm">Setiap soal dilengkapi terjemahan, penjelasan mendalam, serta tips cara cepat menjawab.</p>
+      </div>
+      
+      <div class="glass-card">
+        <i data-lucide="database" style="color: var(--primary); margin-bottom: 16px;" width="32" height="32"></i>
+        <h3 class="font-bold" style="margin-bottom: 8px;">Client-Side Storage</h3>
+        <p class="text-secondary text-sm">Data belajarmu disimpan aman secara lokal di browser tanpa perlu koneksi internet untuk melihat histori.</p>
+      </div>
+      
+      <div class="glass-card">
+        <i data-lucide="layout" style="color: var(--accent); margin-bottom: 16px;" width="32" height="32"></i>
+        <h3 class="font-bold" style="margin-bottom: 8px;">Premium Interface</h3>
+        <p class="text-secondary text-sm">Mengusung desain dark soft glassmorphism yang nyaman di mata untuk belajar berjam-jam.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Stats Section -->
+  <section class="container" style="margin-bottom: 80px;">
+    <div class="glass-card" style="padding: 48px; text-align: center; background: linear-gradient(135deg, rgba(23,26,33,0.8) 0%, rgba(108,99,255,0.1) 100%);">
+      <h2 class="text-2xl font-bold" style="margin-bottom: 16px;">Bergabung dengan Ribuan Pejuang PTN</h2>
+      <p class="text-secondary" style="max-width: 600px; margin: 0 auto 48px;">Persiapan Literasi Bahasa Inggris menjadi lebih terstruktur dan mudah dipahami dengan simulasi interaktif.</p>
+      
+      <div class="stats-row" style="justify-content: center; gap: 32px; flex-wrap: wrap;">
+        <div style="text-align: center;">
+          <div class="text-4xl font-bold text-primary" style="margin-bottom: 8px;">3+</div>
+          <div class="text-sm text-secondary">Paket Soal Premium</div>
+        </div>
+        <div style="text-align: center;">
+          <div class="text-4xl font-bold text-accent" style="margin-bottom: 8px;">98%</div>
+          <div class="text-sm text-secondary">Tingkat Kelulusan</div>
+        </div>
+        <div style="text-align: center;">
+          <div class="text-4xl font-bold text-primary" style="margin-bottom: 8px;">24/7</div>
+          <div class="text-sm text-secondary">Akses Selamanya</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cara Kerja Section -->
+  <section class="container" style="margin-bottom: 80px;">
+    <div class="text-center" style="margin-bottom: 48px;">
+      <h2 class="text-2xl font-bold">Cara Belajar di YasaLearn</h2>
+      <p class="text-secondary">Simpel, cepat, dan efektif.</p>
+    </div>
+    
+    <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+      <div style="text-align: center; padding: 24px;">
+        <div class="badge outline" style="width: 48px; height: 48px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 20px; font-weight: bold; margin-bottom: 16px;">1</div>
+        <h4 class="font-bold mb-2">Pilih Paket</h4>
+        <p class="text-sm text-secondary">Tersedia berbagai paket soal literasi yang selalu di-update secara berkala.</p>
+      </div>
+      <div style="text-align: center; padding: 24px;">
+        <div class="badge outline" style="width: 48px; height: 48px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 20px; font-weight: bold; margin-bottom: 16px; border-color: var(--accent); color: var(--accent);">2</div>
+        <h4 class="font-bold mb-2">Kerjakan Ujian</h4>
+        <p class="text-sm text-secondary">Simulasi ujian layaknya tes aslinya dengan fitur timer dan navigasi cerdas.</p>
+      </div>
+      <div style="text-align: center; padding: 24px;">
+        <div class="badge outline" style="width: 48px; height: 48px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 20px; font-weight: bold; margin-bottom: 16px;">3</div>
+        <h4 class="font-bold mb-2">Smart Review</h4>
+        <p class="text-sm text-secondary">Pelajari terjemahan dan penjelasan detail dari setiap soal untuk bahan evaluasi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Footer -->
+  <footer class="footer-pro">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo font-bold text-xl" style="margin-bottom: 16px;">
+          <span class="text-primary">Yasa</span> <span class="text-accent">Learn</span>
+        </div>
+        <p class="text-secondary text-sm" style="max-width: 300px;">
+          Solusi belajar mandiri terbaik untuk menghadapi ujian masuk YasaLearn Universitas Negeri Jakarta. Tingkatkan literasi Bahasa Inggrismu dengan mudah.
+        </p>
+      </div>
+      <div>
+        <h4 class="font-bold" style="margin-bottom: 16px;">Platform</h4>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+          <li><a href="dashboard.html" class="text-secondary text-sm" style="text-decoration: none;">Dashboard</a></li>
+          <li><a href="study.html" class="text-secondary text-sm" style="text-decoration: none;">Simulasi Ujian</a></li>
+          <li><a href="#" class="text-secondary text-sm" style="text-decoration: none;">Histori Nilai</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold" style="margin-bottom: 16px;">Bantuan</h4>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+          <li><a href="#" class="text-secondary text-sm" style="text-decoration: none;">FAQ</a></li>
+          <li><a href="#" class="text-secondary text-sm" style="text-decoration: none;">Panduan</a></li>
+          <li><a href="#" class="text-secondary text-sm" style="text-decoration: none;">Hubungi Kami</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container text-center text-sm text-secondary" style="border-top: 1px solid rgba(255,255,255,0.05); padding-top: 24px;">
+      &copy; 2026 YasaLearn English Prep. All rights reserved. Built with Vanilla Web Tech.
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    
+    function toggleMenu() {
+      const navMenu = document.getElementById('navMenu');
+      navMenu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
