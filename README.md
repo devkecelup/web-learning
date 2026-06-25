@@ -34,7 +34,7 @@ Proyek ini dibangun murni menggunakan **Vanilla HTML, CSS, dan JavaScript**, seh
 
 1. Clone repositori ini ke komputer lokal Anda:
    ```bash
-   git clone https://github.com/username/yasalearn.git
+   git clone https://github.com/devkecelup/web-learning.git
    ```
 2. Buka folder `yasalearn` di IDE favorit Anda (contoh: VS Code).
 3. Jalankan aplikasi menggunakan **Live Server** (ekstensi VS Code) untuk menghindari batasan *CORS* pada pengambilan data paket JSON.
