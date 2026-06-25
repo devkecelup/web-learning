@@ -113,7 +113,7 @@ async function initStudy() {
   if (titleEl) titleEl.innerText = currentPaket;
   
   try {
-    const response = await fetch(`data/Paket${currentPaket}.json`);
+    const response = await fetch(`data/paket${currentPaket}.json`);
     const data = await response.json();
     currentQuestions = data;
     
