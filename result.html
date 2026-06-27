@@ -9,7 +9,14 @@
 </head>
 <body>
 
-  <!-- Top Navbar Removed -->
+  <!-- Navbar -->
+  <nav class="dash-nav">
+    <div class="dash-nav-brand">
+      <i data-lucide="book-open" width="20" height="20" style="color:var(--accent)"></i>
+      <span><span style="font-weight:300">Yasa</span><span class="text-accent">Learn</span></span>
+    </div>
+    <a href="dashboard.html" class="btn btn-outline text-xs" style="padding:7px 16px;text-decoration:none;">Dashboard</a>
+  </nav>
 
   <!-- Result Content -->
   <div class="container flex justify-center items-center" style="min-height: 70vh;">
@@ -23,18 +30,23 @@
 
       <div class="stats-row" style="margin-bottom: 32px;">
         <div class="stat-box" style="background: rgba(186,161,200,0.1); border-color: var(--accent);">
-          <div class="text-xs text-secondary mb-2">Nilai Akhir</div>
+          <div class="text-xs text-secondary" style="margin-bottom:8px;">Nilai Akhir</div>
           <div class="text-3xl font-bold text-accent" id="resScore">0</div>
+        </div>
+        <div class="stat-box" style="background: rgba(84,64,109,0.1); border-color: var(--primary);">
+          <div class="text-xs text-secondary" style="margin-bottom:8px;">Jawaban Benar</div>
+          <div class="text-3xl font-bold text-primary" id="resCorrect">-</div>
         </div>
       </div>
 
       <div class="flex justify-center gap-md">
-        <a href="study.html" class="btn btn-outline" onclick="Storage.set('current_paket', Storage.get('current_paket'))"><i data-lucide="refresh-cw"></i> Ulangi</a>
+        <a href="study.html" class="btn btn-outline"><i data-lucide="refresh-cw"></i> Ulangi</a>
         <a href="dashboard.html" class="btn btn-primary">Ke Dashboard <i data-lucide="arrow-right"></i></a>
       </div>
     </div>
   </div>
 
   <script src="script.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

@@ -3,75 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard - YasaLearn English</title>
+  <title>Dashboard - YasaLearn</title>
+  <meta name="description" content="Dashboard belajar YasaLearn - pantau progres Literasi Bahasa Inggris dan Penalaran Matematika.">
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
-<body>
+<body class="dashboard-page">
 
-  <!-- Top Navbar Removed -->
-
-  <div class="container dashboard-layout">
-    
-    <!-- Left Column (Learning Plan) -->
-    <div class="main-content">
-      <h2 class="text-2xl font-bold" style="margin-bottom: 8px;">Learning Plan</h2>
-      <p class="text-secondary" style="margin-bottom: 32px;">Lanjutkan progres belajarmu hari ini.</p>
-
-      <div class="stats-row">
-        <div class="stat-box">
-          <div class="text-2xl font-bold text-primary" id="totalScore">0</div>
-          <div class="text-xs text-secondary">Rata-rata Nilai</div>
-        </div>
-        <div class="stat-box">
-          <div class="text-2xl font-bold text-accent" id="totalVocab">0</div>
-          <div class="text-xs text-secondary">Vocab Tersimpan</div>
-        </div>
-      </div>
-
-      <div class="glass-card">
-        <h3 class="font-semibold text-lg">Modul Pembelajaran</h3>
-        <div class="timeline-container" id="timelineContainer">
-          <!-- Dinamis diisi dari JavaScript -->
-        </div>
-      </div>
+  <!-- Navbar -->
+  <nav class="dash-nav">
+    <div class="dash-nav-brand">
+      <i data-lucide="book-open" width="20" height="20" style="color:var(--accent)"></i>
+      <span><span style="font-weight:300">Yasa</span><span class="text-accent">Learn</span></span>
     </div>
+    <a href="index.html" class="btn btn-outline text-xs" style="padding:7px 16px;text-decoration:none;">Beranda</a>
+  </nav>
 
-    <!-- Right Column (Events / Vocab) -->
-    <div class="sidebar">
-      <div class="glass-card" style="margin-bottom: 24px;">
-        <h3 class="font-semibold text-lg" style="margin-bottom: 16px;">Target Belajar</h3>
-        
-        <div class="event-card light">
-          <div class="text-xs font-bold" style="margin-bottom: 4px;">HARI INI</div>
-          <div class="font-semibold">Selesaikan Paket 1</div>
-          <div class="text-xs" style="margin-top: 8px; opacity: 0.8;">Reading Comprehension</div>
-        </div>
-        
-        <div class="event-card">
-          <div class="text-xs font-bold" style="margin-bottom: 4px;">BESOK</div>
-          <div class="font-semibold">Latihan Grammar</div>
-          <div class="text-xs" style="margin-top: 8px; opacity: 0.8;">Paket 2 & Review</div>
-        </div>
-      </div>
-
-      <div class="glass-card">
-        <h3 class="font-semibold text-lg" style="margin-bottom: 16px;">Saved Vocabulary</h3>
-        <div id="vocabList" class="flex-col gap-sm">
-          <!-- Dinamis diisi dari JavaScript -->
-        </div>
-      </div>
+  <!-- Page Header -->
+  <div class="dash-header container">
+    <div>
+      <h1 class="dash-title">Dashboard</h1>
+      <p class="text-secondary text-sm" id="dateGreeting">Selamat belajar hari ini 🎯</p>
     </div>
-
+    <!-- Subject Toggle Pill -->
+    <div class="subject-pill-wrap">
+      <button class="subject-pill active" id="tabInggris" onclick="switchTab('inggris')">
+        <i data-lucide="book" width="14" height="14"></i>
+        <span>Bahasa Inggris</span>
+      </button>
+      <button class="subject-pill" id="tabMath" onclick="switchTab('math')">
+        <i data-lucide="calculator" width="14" height="14"></i>
+        <span>Matematika</span>
+      </button>
+    </div>
   </div>
+
+  <!-- ═══════════════════════════════════════════
+       BENTO GRID
+  ═══════════════════════════════════════════ -->
+  <div class="bento-grid container">
+
+    <!-- STAT: Rata-rata Nilai -->
+    <div class="bento-card bento-stat bento-stat-avg" id="bentoAvg">
+      <div class="bento-stat-label">Rata-rata Nilai</div>
+      <div class="bento-stat-value" id="totalScore">0</div>
+      <div class="bento-stat-sub">/100</div>
+      <div class="bento-stat-icon"><i data-lucide="trending-up" width="28" height="28"></i></div>
+    </div>
+
+    <!-- STAT: Sesi Belajar -->
+    <div class="bento-card bento-stat bento-stat-sess" id="bentoSess">
+      <div class="bento-stat-label">Sesi Belajar</div>
+      <div class="bento-stat-value" id="totalSessions">0</div>
+      <div class="bento-stat-sub">kali</div>
+      <div class="bento-stat-icon"><i data-lucide="zap" width="28" height="28"></i></div>
+    </div>
+
+    <!-- STAT: Paket Selesai -->
+    <div class="bento-card bento-stat bento-stat-done" id="bentoDone">
+      <div class="bento-stat-label">Paket Selesai</div>
+      <div class="bento-stat-value" id="totalDone">0</div>
+      <div class="bento-stat-sub">paket</div>
+      <div class="bento-stat-icon"><i data-lucide="check-circle" width="28" height="28"></i></div>
+    </div>
+
+    <!-- CHART: Grafik Progres -->
+    <div class="bento-card bento-chart">
+      <div class="bento-chart-header">
+        <h3 class="bento-section-title">Progres Belajar</h3>
+        <div class="chart-pill-group">
+          <button class="chart-pill active" id="chartFilterAll"   onclick="filterChart('all')">Semua</button>
+          <button class="chart-pill" id="chartFilterInggris" onclick="filterChart('inggris')">Inggris</button>
+          <button class="chart-pill" id="chartFilterMath"    onclick="filterChart('math')">Matematika</button>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="progressChart"></canvas>
+        <div id="chartEmptyState" class="chart-empty" style="display:none;">
+          <i data-lucide="bar-chart-2" width="36" height="36" style="opacity:.35;margin-bottom:10px;"></i>
+          <p>Belum ada data. Mulai kerjakan soal dulu!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODULES: Bahasa Inggris -->
+    <div class="bento-card bento-modules" id="panelInggris">
+      <div class="bento-module-head">
+        <div class="bento-module-icon bento-icon-inggris"><i data-lucide="book-open" width="18" height="18"></i></div>
+        <div>
+          <h3 class="bento-section-title">Literasi Bahasa Inggris</h3>
+          <p class="text-xs text-secondary">3 paket — Reading & Grammar</p>
+        </div>
+      </div>
+      <div class="module-list" id="timelineContainer"></div>
+    </div>
+
+    <!-- MODULES: Penalaran Matematika -->
+    <div class="bento-card bento-modules" id="panelMath" style="display:none;">
+      <div class="bento-module-head">
+        <div class="bento-module-icon bento-icon-math"><i data-lucide="calculator" width="18" height="18"></i></div>
+        <div>
+          <h3 class="bento-section-title">Penalaran Matematika</h3>
+          <p class="text-xs text-secondary">Aritmatika & logika kontekstual</p>
+        </div>
+      </div>
+      <div class="module-list" id="mathTimelineContainer"></div>
+    </div>
+
+    <!-- TARGET: Belajar Hari Ini -->
+    <div class="bento-card bento-target">
+      <h3 class="bento-section-title" style="margin-bottom:16px;">Target Hari Ini</h3>
+      <div class="target-item target-today">
+        <div class="target-dot target-dot-now"></div>
+        <div>
+          <div class="text-xs font-bold" style="opacity:.7;margin-bottom:2px;">SEKARANG</div>
+          <div class="font-semibold text-sm">Penalaran Matematika</div>
+          <div class="text-xs text-secondary" style="margin-top:2px;">Kerjakan 20 soal latihan</div>
+        </div>
+      </div>
+      <div class="target-item">
+        <div class="target-dot target-dot-next"></div>
+        <div>
+          <div class="text-xs font-bold" style="opacity:.7;margin-bottom:2px;">BESOK</div>
+          <div class="font-semibold text-sm">Literasi B. Inggris</div>
+          <div class="text-xs text-secondary" style="margin-top:2px;">Paket 2 & Smart Review</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end bento-grid -->
+
+  <div style="height:40px;"></div>
 
   <script src="script.js"></script>
   <script>
     lucide.createIcons();
-    function toggleMenu() {
-      const navMenu = document.getElementById('navMenu');
-      if(navMenu) navMenu.classList.toggle('active');
-    }
+
+    // Date greeting
+    const d = new Date();
+    const days = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
+    const months = ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
+    document.getElementById('dateGreeting').textContent =
+      `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} · Selamat belajar! 🎯`;
   </script>
 </body>
 </html>

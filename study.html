@@ -3,96 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belajar - YasaLearn English</title>
+  <title>Belajar - YasaLearn</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
+<body class="study-page">
 
-  <!-- Top Navbar -->
-  <nav class="navbar container" style="margin-bottom: 24px;">
-    <div class="font-bold text-xl"><i data-lucide="book-open" style="display:inline-block; vertical-align:middle; margin-right:8px; color:var(--accent)"></i> <span style="font-weight: 300;">Yasa</span><span class="text-accent">Learn</span></div>
-    
-    <div class="flex items-center gap-sm">
-      <button class="btn btn-outline text-xs" onclick="window.location.href='dashboard.html'" style="padding: 8px 12px;">Kembali</button>
-      <button class="btn btn-primary text-xs" onclick="submitExam()" style="padding: 8px 12px;">Selesai</button>
+  <!-- ══ NAVBAR ══ -->
+  <nav class="study-topbar">
+    <div class="study-topbar-left">
+      <button class="study-icon-btn" onclick="window.location.href='dashboard.html'" title="Kembali">
+        <i data-lucide="arrow-left" width="18" height="18"></i>
+      </button>
+      <div class="study-topbar-brand">
+        <span style="font-weight:300">Yasa</span><span class="text-accent">Learn</span>
+      </div>
+    </div>
+
+    <div class="study-topbar-center">
+      <span class="study-qnum" id="qNumber">Soal 1/20</span>
+      <div class="study-progress-bar">
+        <div class="study-progress-fill" id="progressBar" style="width:0%"></div>
+      </div>
+    </div>
+
+    <div class="study-topbar-right">
+      <div class="study-timer-pill">
+        <i data-lucide="clock" width="13" height="13"></i>
+        <span id="timer">45:00</span>
+      </div>
+      <button class="study-icon-btn study-submit-btn" onclick="submitExam()" title="Selesai">
+        <i data-lucide="send" width="16" height="16"></i>
+      </button>
     </div>
   </nav>
 
-  <!-- Mobile Study Controls Navbar -->
-  <div class="mobile-nav" style="justify-content: space-between; padding: 8px 16px; align-items: center;">
-    <button class="btn btn-outline text-sm" onclick="prevQuestion()" style="border-radius: var(--radius-full); width: 32px; height: 32px; padding: 0; display: flex; align-items: center; justify-content: center;"><i data-lucide="chevron-left" width="16" height="16"></i></button>
-    
-    <div class="flex-col" style="align-items: center; gap: 4px;">
-      <div class="font-bold text-primary" id="mobileQNumber" style="font-size: 12px;">1/20</div>
-      <div class="badge outline" style="justify-content: center; padding: 2px 6px; font-size: 10px;"><i data-lucide="clock" width="10" height="10" style="margin-right:4px;"></i> <span id="mobileTimer">45:00</span></div>
-    </div>
+  <!-- ══ MAIN LAYOUT ══ -->
+  <div class="study-body">
 
-    <button class="btn btn-primary text-sm" onclick="nextQuestion()" style="border-radius: var(--radius-full); width: 32px; height: 32px; padding: 0; display: flex; align-items: center; justify-content: center;"><i data-lucide="chevron-right" width="16" height="16"></i></button>
+    <!-- Sidebar: Question Nav (desktop only) -->
+    <aside class="study-sidebar">
+      <div class="study-sidebar-card">
+        <div class="study-sidebar-title">Navigasi Soal</div>
+        <div class="question-grid" id="questionNavGrid"></div>
+      </div>
+    </aside>
+
+    <!-- Main question area -->
+    <main class="study-main">
+
+      <!-- Reading passage card -->
+      <div class="study-passage-card" id="passageCard">
+        <div class="study-passage-meta">
+          <span class="badge" id="qCategory">Reading</span>
+          <button id="translateBtn" onclick="toggleTranslation()" class="study-translate-btn" title="Tampilkan terjemahan">
+            <i data-lucide="languages" width="15" height="15"></i>
+            <span>Terjemahan</span>
+          </button>
+        </div>
+        <h2 class="study-passage-title" id="qTitle"></h2>
+        <div class="study-passage-text" id="qText"></div>
+        <div class="study-passage-translation" id="qTextTranslation"></div>
+      </div>
+
+      <!-- Question + Options card -->
+      <div class="study-question-card">
+        <p class="study-question-text" id="qQuestion"></p>
+        <div class="study-question-translation" id="qQuestionTranslation"></div>
+
+        <div class="study-options" id="optionsContainer"></div>
+
+        <!-- Explanation -->
+        <div class="study-explanation" id="explanationCard">
+          <div class="study-explanation-header">
+            <i data-lucide="lightbulb" width="16" height="16"></i>
+            <span>Penjelasan</span>
+          </div>
+          <p id="explanationText"></p>
+        </div>
+
+        <!-- Bottom Nav -->
+        <div class="study-nav-footer">
+          <button class="study-nav-prev-btn" id="btnPrev" onclick="prevQuestion()">
+            <i data-lucide="chevron-left" width="17" height="17"></i>
+            <span class="study-nav-label">Sebelumnya</span>
+          </button>
+
+          <div class="study-nav-dots" id="navProgress"></div>
+
+          <button class="study-nav-next-btn" id="btnNext" onclick="handleNext()">
+            <span class="study-nav-label" id="btnNextLabel">Selanjutnya</span>
+            <i data-lucide="chevron-right" width="17" height="17" id="btnNextIcon"></i>
+          </button>
+        </div>
+      </div>
+
+    </main>
   </div>
 
-  <div class="container study-layout">
-    
-    <!-- Left Sidebar (Question Navigation) -->
-    <div class="study-sidebar-left">
-      <div class="glass-card">
-        <h3 class="font-semibold" style="margin-bottom: 16px;">Navigasi Soal</h3>
-        <div class="progress-bar-container" style="margin-bottom: 16px;">
-          <div class="progress-bar-fill" id="progressBar" style="width: 0%;"></div>
-        </div>
-        <div class="question-grid" id="questionNavGrid">
-          <!-- Dinamis diisi dari JavaScript -->
-        </div>
-      </div>
+  <!-- ══ MOBILE BOTTOM BAR ══ -->
+  <div class="study-mobile-bar">
+    <button class="study-mobile-nav-btn" onclick="prevQuestion()">
+      <i data-lucide="chevron-left" width="20" height="20"></i>
+    </button>
+    <div class="study-mobile-info">
+      <span id="mobileQNumber" class="study-mobile-num">1/20</span>
+      <span class="study-mobile-timer">
+        <i data-lucide="clock" width="11" height="11"></i>
+        <span id="mobileTimer">45:00</span>
+      </span>
     </div>
-
-    <!-- Main Content (Question Area) -->
-    <div class="main-content">
-      <div class="glass-card">
-        <div class="flex justify-between items-center" style="margin-bottom: 24px; border-bottom: 1px solid var(--card-border); padding-bottom: 16px;">
-          <span class="badge" id="qCategory">Reading Comprehension</span>
-          <div class="flex gap-sm items-center">
-            <button onclick="toggleTranslation()" class="btn btn-outline text-xs translate-btn" style="padding: 8px; border-radius: 8px;" title="Terjemahan"><i data-lucide="languages" width="16" height="16"></i></button>
-            <span class="text-secondary font-bold" id="qNumber">Soal 1/20</span>
-          </div>
-        </div>
-        
-        <h2 class="font-bold text-lg text-primary" id="qTitle" style="margin-bottom: 16px;"></h2>
-        <div class="text-lg" id="qText" style="margin-bottom: 12px; white-space: pre-wrap; line-height: 1.8;">
-          <!-- Teks soal di sini -->
-        </div>
-        <div id="qTextTranslation" class="text-secondary text-sm" style="display: none; margin-bottom: 32px; padding: 16px; background: rgba(108,99,255,0.05); border-left: 3px solid var(--primary); border-radius: 0 8px 8px 0; font-style: italic;">
-          <!-- Terjemahan teks di sini -->
-        </div>
-
-        <h3 class="font-semibold" style="margin-bottom: 8px;" id="qQuestion"></h3>
-        <div id="qQuestionTranslation" class="text-secondary text-sm" style="display: none; margin-bottom: 16px; color: var(--accent);"></div>
-
-        <div id="optionsContainer" class="flex-col gap-sm">
-          <!-- Pilihan ganda di sini -->
-        </div>
-
-        <div class="flex justify-between items-center" style="margin-top: 32px;">
-          <button class="btn btn-outline" id="btnPrev" onclick="prevQuestion()"><i data-lucide="chevron-left"></i> Sebelumnya</button>
-          <button class="btn btn-primary" id="btnNext" onclick="nextQuestion()">Selanjutnya <i data-lucide="chevron-right"></i></button>
-        </div>
-
-        <!-- Area Penjelasan (muncul setelah menjawab) -->
-        <div id="explanationCard" class="status-card">
-          <div class="flex items-center gap-sm" style="margin-bottom: 8px;">
-            <i data-lucide="info"></i>
-            <h4 class="font-bold">Penjelasan Smart Review</h4>
-          </div>
-          <p id="explanationText" class="text-sm"></p>
-        </div>
-      </div>
-    </div>
-
+    <button class="study-mobile-nav-btn study-mobile-next" onclick="handleNext()">
+      <i data-lucide="chevron-right" width="20" height="20"></i>
+    </button>
   </div>
 
   <script src="script.js"></script>
-  <script>
-    lucide.createIcons();
-  </script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

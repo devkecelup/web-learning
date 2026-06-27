@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "paket": 1,
+        "nomor": 1,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Keuntungan Penjualan",
+        "teks": "Sebuah usaha kecil memproduksi minuman cokelat jelly. Modal pembuatan 50 botol minuman tersebut adalah Rp300.000,00.",
+        "pertanyaan": "Jika 40 botol terjual seharga Rp8.000,00 per botol dan sisanya rusak karena kemasan cacat, berapakah persentase keuntungan dari penjualan tersebut?",
+        "pilihan": {
+            "A": "5,00%",
+            "B": "6,67%",
+            "C": "8,00%",
+            "D": "10,00%",
+            "E": "12,50%"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Hitung pendapatan: 40 botol x Rp8.000,00 = Rp320.000,00.\n2. Hitung keuntungan: Pendapatan - Modal = Rp320.000,00 - Rp300.000,00 = Rp20.000,00.\n3. Persentase: (Keuntungan / Modal) x 100% = (20.000 / 300.000) x 100% = 6,67%."
+    },
+    {
+        "id": 2,
+        "paket": 1,
+        "nomor": 2,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Waktu Pengerjaan Proyek",
+        "teks": "Sebuah proyek pembuatan website portofolio memiliki tenggat waktu yang ketat.",
+        "pertanyaan": "Proyek tersebut dapat diselesaikan oleh desainer A dalam waktu 12 hari. Jika dikerjakan bersama B, proyek tersebut selesai dalam waktu 4 hari. Berapa lama waktu yang dibutuhkan jika B mengerjakan proyek tersebut sendirian?",
+        "pilihan": {
+            "A": "6 hari",
+            "B": "8 hari",
+            "C": "10 hari",
+            "D": "12 hari",
+            "E": "16 hari"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Cara Jawab:\n1. Gunakan rumus perbandingan kecepatan kerja: 1/A + 1/B = 1/Gabungan.\n2. Masukkan nilai: 1/12 + 1/B = 1/4.\n3. Pindahkan ruas: 1/B = 1/4 - 1/12 = 3/12 - 1/12 = 2/12.\n4. Sederhanakan: 1/B = 1/6, sehingga B = 6 hari."
+    },
+    {
+        "id": 3,
+        "paket": 1,
+        "nomor": 3,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Statistik Penonton",
+        "teks": "Seorang konten kreator memantau jumlah penonton siaran langsungnya selama beberapa hari.",
+        "pertanyaan": "Rata-rata penonton selama 4 hari pertama adalah 250 orang. Pada hari ke-5, karena ada acara debut khusus, rata-rata penonton selama 5 hari menjadi 350 orang. Berapa jumlah penonton khusus pada hari ke-5 tersebut?",
+        "pilihan": {
+            "A": "450 orang",
+            "B": "550 orang",
+            "C": "650 orang",
+            "D": "750 orang",
+            "E": "850 orang"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Cara Jawab:\n1. Hitung total penonton 4 hari pertama: 4 x 250 = 1000 orang.\n2. Hitung total penonton 5 hari: 5 x 350 = 1750 orang.\n3. Cari selisihnya untuk hari ke-5: 1750 - 1000 = 750 orang."
+    },
+    {
+        "id": 4,
+        "paket": 1,
+        "nomor": 4,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Jarak dan Waktu Tempuh",
+        "teks": "Jarak dari area Tanjung Priok ke kampus tujuan di Rawamangun adalah 12 km.",
+        "pertanyaan": "Jika seseorang berangkat menaiki motor pada pukul 07.15 dengan kecepatan rata-rata 36 km/jam, pukul berapakah ia akan tiba di tujuan?",
+        "pilihan": {
+            "A": "07.30",
+            "B": "07.35",
+            "C": "07.45",
+            "D": "07.50",
+            "E": "08.00"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Gunakan rumus Waktu = Jarak / Kecepatan.\n2. Waktu = 12 km / 36 km/jam = 1/3 jam.\n3. Ubah ke menit: 1/3 x 60 menit = 20 menit.\n4. Tambahkan ke waktu awal: 07.15 + 20 menit = pukul 07.35."
+    },
+    {
+        "id": 5,
+        "paket": 1,
+        "nomor": 5,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Pola Bilangan",
+        "teks": "",
+        "pertanyaan": "Perhatikan barisan bilangan berikut: 4, 9, 16, 25, 36, ... Angka selanjutnya yang tepat untuk mengisi barisan tersebut adalah?",
+        "pilihan": {
+            "A": "45",
+            "B": "47",
+            "C": "49",
+            "D": "51",
+            "E": "64"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Amati pola angkanya: 4 = 2^2, 9 = 3^2, 16 = 4^2, 25 = 5^2, 36 = 6^2.\n2. Barisan tersebut merupakan kuadrat dari bilangan asli secara berurutan.\n3. Angka selanjutnya adalah 7^2 = 49."
+    },
+    {
+        "id": 6,
+        "paket": 1,
+        "nomor": 6,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Peluang Acak",
+        "teks": "Terdapat 10 file aset di dalam sebuah folder project yang terdiri dari 4 file berformat SVG dan 6 file berformat PNG.",
+        "pertanyaan": "Jika sistem ditarik memilih 2 file secara acak secara bersamaan, berapakah peluang terpilihnya minimal 1 file berformat SVG?",
+        "pilihan": {
+            "A": "1/3",
+            "B": "1/2",
+            "C": "2/3",
+            "D": "3/4",
+            "E": "5/6"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Peluang 'minimal 1 SVG' lebih mudah dihitung dengan komplemennya: 1 - Peluang(keduanya PNG).\n2. Total cara ambil 2 dari 10 file: C(10,2) = (10x9)/2 = 45.\n3. Cara ambil 2 PNG dari 6 PNG: C(6,2) = (6x5)/2 = 15.\n4. Peluang keduanya PNG = 15/45 = 1/3.\n5. Peluang minimal 1 SVG = 1 - 1/3 = 2/3."
+    },
+    {
+        "id": 7,
+        "paket": 1,
+        "nomor": 7,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Sistem Persamaan Linear",
+        "teks": "Sebuah toko perlengkapan digital menjual aksesoris.",
+        "pertanyaan": "Harga 2 buah mouse dan 1 keyboard adalah Rp450.000,00. Harga 1 mouse dan 2 keyboard adalah Rp600.000,00. Berapakah total harga untuk 3 mouse dan 3 keyboard?",
+        "pilihan": {
+            "A": "Rp900.000,00",
+            "B": "Rp950.000,00",
+            "C": "Rp1.000.000,00",
+            "D": "Rp1.050.000,00",
+            "E": "Rp1.200.000,00"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Cara Jawab:\n1. Tulis persamaan 1: 2m + k = 450.000.\n2. Tulis persamaan 2: m + 2k = 600.000.\n3. Alih-alih mencari m dan k satu per satu, jumlahkan langsung kedua persamaan tersebut: (2m + m) + (k + 2k) = 450.000 + 600.000.\n4. Hasilnya: 3m + 3k = Rp1.050.000,00."
+    },
+    {
+        "id": 8,
+        "paket": 1,
+        "nomor": 8,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Himpunan Siswa",
+        "teks": "Dari 40 siswa kelas RPL yang disurvei mengenai preferensi musik Jepang.",
+        "pertanyaan": "Diketahui 25 siswa menyukai lagu-lagu Yoasobi, 22 siswa menyukai lagu-lagu Ado, dan 5 siswa tidak menyukai keduanya. Berapa banyak siswa yang menyukai lagu dari kedua musisi tersebut sekaligus?",
+        "pilihan": {
+            "A": "10",
+            "B": "12",
+            "C": "15",
+            "D": "17",
+            "E": "20"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Gunakan rumus himpunan: Total = Suka A + Suka B - Suka Keduanya + Tidak Keduanya.\n2. 40 = 25 + 22 - x + 5.\n3. 40 = 52 - x.\n4. x = 52 - 40 = 12 siswa."
+    },
+    {
+        "id": 9,
+        "paket": 1,
+        "nomor": 9,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Aljabar Durasi Video",
+        "teks": "Sebuah aplikasi video editing memproses 3 potongan video (A, B, C) untuk dirender.",
+        "pertanyaan": "Durasi video A adalah 2 kali durasi video B. Durasi video C adalah 10 menit lebih panjang dari video B. Jika total durasi ketiga video setelah digabung adalah 90 menit, berapakah durasi khusus untuk video A?",
+        "pilihan": {
+            "A": "20 menit",
+            "B": "30 menit",
+            "C": "40 menit",
+            "D": "50 menit",
+            "E": "60 menit"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Buat model matematika: A = 2B, C = B + 10, dan A + B + C = 90.\n2. Substitusikan nilai A dan C ke persamaan total: (2B) + B + (B + 10) = 90.\n3. 4B + 10 = 90 -> 4B = 80 -> B = 20.\n4. Cari durasi A: A = 2B = 2 x 20 = 40 menit."
+    },
+    {
+        "id": 10,
+        "paket": 1,
+        "nomor": 10,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Persentase Geometri",
+        "teks": "Dimensi sebuah komponen antarmuka berbentuk persegi panjang diubah ukurannya secara proporsional.",
+        "pertanyaan": "Ukuran panjangnya ditambah 20% dan ukuran lebarnya dikurangi 20%. Bagaimana perubahan persentase luas komponen tersebut dari ukuran aslinya?",
+        "pilihan": {
+            "A": "Luasnya tetap sama",
+            "B": "Luasnya bertambah 4%",
+            "C": "Luasnya berkurang 4%",
+            "D": "Luasnya berkurang 2%",
+            "E": "Luasnya bertambah 2%"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Luas asli = Panjang (P) x Lebar (L) = 100% P x 100% L.\n2. Luas baru = (100% + 20%)P x (100% - 20%)L = 1,2P x 0,8L.\n3. Hitung hasilnya: 1,2 x 0,8 = 0,96 PL, yang berarti 96% dari luas asli.\n4. Karena 96% < 100%, maka luasnya berkurang sebesar 4%."
+    },
+    {
+        "id": 11,
+        "paket": 1,
+        "nomor": 11,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Diskon Langganan",
+        "teks": "Biaya langganan bulanan sebuah software desain adalah Rp120.000,00 per bulan.",
+        "pertanyaan": "Jika pengguna memilih paket tahunan, biayanya adalah Rp1.152.000,00 dibayar di muka. Berapa persen diskon yang didapat dengan memilih paket tahunan dibandingkan membayar bulanan rutin selama 12 bulan?",
+        "pilihan": {
+            "A": "15%",
+            "B": "20%",
+            "C": "25%",
+            "D": "30%",
+            "E": "35%"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Hitung biaya normal 1 tahun: 12 bulan x Rp120.000,00 = Rp1.440.000,00.\n2. Cari selisih biaya (nilai diskon): Rp1.440.000,00 - Rp1.152.000,00 = Rp288.000,00.\n3. Hitung persentase diskon: (288.000 / 1.440.000) x 100% = 1/5 x 100% = 20%."
+    },
+    {
+        "id": 12,
+        "paket": 1,
+        "nomor": 12,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Perbandingan Rata-rata",
+        "teks": "",
+        "pertanyaan": "Jika variabel x adalah rata-rata dari himpunan bilangan (11, 15, 19) dan variabel y adalah rata-rata dari himpunan bilangan (12, 16, 20), maka hubungan yang benar antara keduanya adalah?",
+        "pilihan": {
+            "A": "x > y",
+            "B": "x < y",
+            "C": "x = y",
+            "D": "x = 2y",
+            "E": "x = y + 2"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Hitung nilai rata-rata x: (11 + 15 + 19) / 3 = 45 / 3 = 15.\n2. Hitung nilai rata-rata y: (12 + 16 + 20) / 3 = 48 / 3 = 16.\n3. Karena 15 kurang dari 16, maka x < y."
+    },
+    {
+        "id": 13,
+        "paket": 1,
+        "nomor": 13,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Kecepatan Mesin",
+        "teks": "Sebuah printer bisa mencetak 100 lembar dokumen dalam waktu 4 menit.",
+        "pertanyaan": "Jika ada 3 mesin printer yang sama identik dioperasikan bersamaan, berapa lama waktu yang dibutuhkan untuk mencetak total 1.500 lembar dokumen?",
+        "pilihan": {
+            "A": "10 menit",
+            "B": "15 menit",
+            "C": "20 menit",
+            "D": "25 menit",
+            "E": "30 menit"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Hitung kecepatan 1 printer: 100 lembar / 4 menit = 25 lembar/menit.\n2. Hitung kecepatan 3 printer beroperasi bersama: 3 x 25 = 75 lembar/menit.\n3. Waktu untuk 1500 lembar: 1500 lembar / 75 lembar/menit = 20 menit."
+    },
+    {
+        "id": 14,
+        "paket": 1,
+        "nomor": 14,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Sistem Persamaan",
+        "teks": "Diberikan dua persamaan linear: 3a - b = 15 dan a + 3b = 5.",
+        "pertanyaan": "Berdasarkan persamaan tersebut, berapakah nilai dari a² - b²?",
+        "pilihan": {
+            "A": "20",
+            "B": "24",
+            "C": "25",
+            "D": "26",
+            "E": "30"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Dari persamaan kedua, a = 5 - 3b. Substitusikan ke persamaan pertama.\n2. 3(5 - 3b) - b = 15 -> 15 - 9b - b = 15 -> -10b = 0 -> b = 0.\n3. Jika b = 0, maka a = 5 - 3(0) = 5.\n4. Hitung a² - b² = 5² - 0² = 25 - 0 = 25."
+    },
+    {
+        "id": 15,
+        "paket": 1,
+        "nomor": 15,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Peluang Label Data",
+        "teks": "Sebuah database berisi 10 baris data yang sedang diuji: 5 baris data sukses (label hijau), 3 baris peringatan (label kuning), dan 2 baris error (label merah).",
+        "pertanyaan": "Jika 2 baris data ditarik secara acak untuk diinspeksi, berapakah peluang terpilihnya dua baris data dengan label yang BERBEDA?",
+        "pilihan": {
+            "A": "14/45",
+            "B": "21/45",
+            "C": "31/45",
+            "D": "34/45",
+            "E": "41/45"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Hitung total kemungkinan menarik 2 dari 10 data: C(10,2) = 45.\n2. Hitung kemungkinan menarik 2 label SAMA: Keduanya Hijau C(5,2)=10, Keduanya Kuning C(3,2)=3, Keduanya Merah C(2,2)=1. Total SAMA = 10+3+1 = 14.\n3. Peluang label SAMA = 14/45.\n4. Peluang label BEDA = 1 - Peluang SAMA = 1 - 14/45 = 31/45."
+    },
+    {
+        "id": 16,
+        "paket": 1,
+        "nomor": 16,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Barisan Aritmatika",
+        "teks": "Diketahui sebuah barisan aritmatika: 3, 7, 11, 15, ...",
+        "pertanyaan": "Nilai suku ke-20 dari barisan bilangan tersebut adalah?",
+        "pilihan": {
+            "A": "77",
+            "B": "79",
+            "C": "81",
+            "D": "83",
+            "E": "85"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Tentukan suku pertama (a) = 3.\n2. Tentukan beda tiap suku (b) = 7 - 3 = 4.\n3. Gunakan rumus suku ke-n: Un = a + (n-1)b.\n4. U20 = 3 + (20-1)4 = 3 + 19(4) = 3 + 76 = 79."
+    },
+    {
+        "id": 17,
+        "paket": 1,
+        "nomor": 17,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Promosi Event",
+        "teks": "Dalam perayaan acara tanggal 19 Maret, sebuah restoran mengadakan promosi: Setiap pembelian 3 gelas minuman, pelanggan mendapatkan gratis 1 potong kue seharga Rp15.000,00.",
+        "pertanyaan": "Jika harga 1 gelas minuman adalah Rp20.000,00 dan rombongan menghabiskan Rp300.000,00 khusus untuk minuman saja, berapakah total nilai kue gratis yang mereka peroleh?",
+        "pilihan": {
+            "A": "Rp45.000,00",
+            "B": "Rp60.000,00",
+            "C": "Rp75.000,00",
+            "D": "Rp90.000,00",
+            "E": "Rp105.000,00"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cara Jawab:\n1. Hitung jumlah gelas minuman yang dibeli: Rp300.000,00 / Rp20.000,00 = 15 gelas.\n2. Hitung jumlah kue gratis yang didapat (1 kue per 3 gelas): 15 / 3 = 5 kue.\n3. Hitung total nilai kue gratis: 5 x Rp15.000,00 = Rp75.000,00."
+    },
+    {
+        "id": 18,
+        "paket": 1,
+        "nomor": 18,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Volume Tabung",
+        "teks": "Tabung A memiliki jari-jari alas r dan tinggi t. Tabung B memiliki jari-jari alas 2r dan tinggi 0,5t.",
+        "pertanyaan": "Perbandingan volume tabung A terhadap tabung B adalah?",
+        "pilihan": {
+            "A": "1 : 1",
+            "B": "1 : 2",
+            "C": "2 : 1",
+            "D": "1 : 4",
+            "E": "4 : 1"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Rumus volume tabung adalah πr²t.\n2. Volume Tabung A = π * (r)² * t.\n3. Volume Tabung B = π * (2r)² * (0,5t) = π * 4r² * 0,5t = 2πr²t.\n4. Perbandingan Vol A : Vol B = (1 πr²t) : (2 πr²t) = 1 : 2."
+    },
+    {
+        "id": 19,
+        "paket": 1,
+        "nomor": 19,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Kenaikan Gaji Berkala",
+        "teks": "Gaji seorang karyawan divisi Software Engineering dinaikkan sebesar 10% secara rutin setiap awal tahun.",
+        "pertanyaan": "Jika pada awal tahun 2025 gajinya adalah Rp5.000.000,00, berapakah perkiraan gajinya pada awal tahun 2027?",
+        "pilihan": {
+            "A": "Rp6.000.000,00",
+            "B": "Rp6.050.000,00",
+            "C": "Rp6.100.000,00",
+            "D": "Rp6.150.000,00",
+            "E": "Rp6.200.000,00"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Hitung gaji awal 2026: Gaji 2025 + (10% dari gaji 2025) = 5.000.000 + 500.000 = Rp5.500.000,00.\n2. Hitung gaji awal 2027: Gaji 2026 + (10% dari gaji 2026) = 5.500.000 + 550.000 = Rp6.050.000,00."
+    },
+    {
+        "id": 20,
+        "paket": 1,
+        "nomor": 20,
+        "kategori": "Penalaran Matematika",
+        "judul_teks": "Keliling Segitiga",
+        "teks": "Sebuah elemen segitiga siku-siku digambar pada bidang layar.",
+        "pertanyaan": "Panjang sisi miringnya adalah 13 px dan salah satu sisi tegaknya berukuran 5 px. Keliling total dari bangun segitiga tersebut adalah?",
+        "pilihan": {
+            "A": "28 px",
+            "B": "30 px",
+            "C": "32 px",
+            "D": "34 px",
+            "E": "36 px"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cara Jawab:\n1. Cari panjang sisi alas menggunakan Teorema Pythagoras: Alas = √(Miring² - Tinggi²).\n2. Alas = √(13² - 5²) = √(169 - 25) = √144 = 12 px.\n3. Hitung keliling dengan menjumlahkan semua sisinya: 13 + 5 + 12 = 30 px."
+    }
+]
